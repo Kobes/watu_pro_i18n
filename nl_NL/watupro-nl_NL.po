@@ -1,0 +1,4409 @@
+# Copyright (C) 2014 Watu PRO
+# This file is distributed under the same license as the Watu PRO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Watu PRO 4.2.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/watupro\n"
+"POT-Creation-Date: 2014-03-24 16:50:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-03-26 17:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: Blik op Werk\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl_NL\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,299,-1,-1,-1,-1\n"
+
+#: controllers/advanced-import.php:17
+msgid "Please upload file"
+msgstr "Bestand uploaden alstublieft"
+
+#: controllers/cats.php:32 controllers/questions.php:233
+#: controllers/questions.php:241
+msgid "You can manage only your own categories"
+msgstr "Je kunt alleen je eigen categorieën beheren"
+
+#: controllers/certificates.php:27 controllers/certificates.php:242
+msgid "You can manage only your own certificates"
+msgstr "Je kunt alleen je eigen certificaten beheren"
+
+#: controllers/certificates.php:123
+msgid "no such certificate"
+msgstr "Dit certificaat bestaat niet"
+
+#: controllers/certificates.php:130 controllers/certificates.php:143
+#: lib/watupro.php:473 lib/watupro.php:490
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Je hebt niet voldoende rechten om deze pagina te bekijken"
+
+#: controllers/certificates.php:140
+msgid "Such certificate was never earned."
+msgstr "Dit certificaat is nooit behaald."
+
+#: controllers/exam.php:54
+msgid ""
+"<p>You have completed %%QUIZ_NAME%%.</p>\n"
+"\n"
+"<p>You scored %%SCORE%% correct out of %%TOTAL%% questions.</p>\n"
+"\n"
+"<p>You have collected %%POINTS%% points.</p>\n"
+"\n"
+"<p>Your obtained grade is <b>%%GRADE%%</b></p>\n"
+"\n"
+"<p>Your answers are shown below:</p>\n"
+"\n"
+"%%ANSWERS%%"
+msgstr ""
+"<p>Je hebt %%QUIZ_NAME%% afgerond.</p>\n"
+"\n"
+"<p>Je hebt %%SCORE%% van de %%TOTAL%% vragen correct beantwoord.</p>\n"
+"\n"
+"<p>Je hebt %%POINTS%% punten behaald.</p>\n"
+"\n"
+"<p>Je cijfer is: <b>%%GRADE%%</b></p>\n"
+"\n"
+"<p>De volgende antwoorden werden door jou gegeven:</p>\n"
+"\n"
+"%%ANSWERS%%"
+
+#: controllers/exam.php:91
+msgid "You can delete only your own quizzes."
+msgstr "Je kunt alleen je eigen toetsen verwijderen."
+
+#: controllers/exam.php:173 modules/reports/models/reports.php:66
+#: modules/reports/models/reports.php:139 modules/reports/views/skills.php:18
+#: views/exams.php:14 views/exams.php:57 views/my_exams.php:21
+#: views/questions.php:74 views/questions.php:131
+msgid "Uncategorized"
+msgstr "Niet gecategoriseerd"
+
+#: controllers/exam.php:181
+msgid "The exam was successfully copied!"
+msgstr "Het examen is gekopieerd!"
+
+#: controllers/grades.php:12 controllers/questions.php:12
+#: controllers/questions.php:45
+msgid "You can only manage the questions on your own quizzes."
+msgstr "Je kunt alleen de vragen van je eigen toetsen beheren."
+
+#: controllers/grades.php:25
+msgid ""
+"For category <strong>%%CATEGORY%%</strong> you got grade <strong>%%GTITLE%%</"
+"strong>."
+msgstr ""
+"For category <strong>%%CATEGORY%%</strong> you got grade <strong>%%GTITLE%%</"
+"strong>."
+
+#: controllers/groups.php:65
+msgid "Watu PRO Fields"
+msgstr "Velden van Watu PRO"
+
+#: controllers/groups.php:68 controllers/init.php:570
+msgid "User Groups"
+msgstr "Gebruikersgroepen"
+
+#: controllers/hints.php:10
+msgid "This quiz does not allow hints."
+msgstr "Deze test staat geen hints toe"
+
+#: controllers/hints.php:14
+msgid "No hints in this quiz!"
+msgstr "Er zijn geen hints beschikbaar in deze test!"
+
+#: controllers/hints.php:21
+msgid "There are no more hints on this question."
+msgstr "Er zijn geen hints meer voor deze vraag."
+
+#: controllers/hints.php:25
+msgid "You have used all your hints for this quiz."
+msgstr "Je hebt alle voor jou beschikbare hints opgebruikt."
+
+#: controllers/hints.php:29
+msgid "You have used all your hints for this question."
+msgstr "Je hebt alle voor jou beschikbare hints voor deze vraag opgebruikt."
+
+#: controllers/init.php:466 controllers/init.php:575
+msgid "Settings"
+msgstr "Instellingen"
+
+#: controllers/init.php:497 views/question_form.php:133
+msgid "Answering this question is required"
+msgstr "Dit is een vereiste vraag."
+
+#: controllers/init.php:498
+msgid ""
+"You did not select or enter any answer. Are you sure you want to continue?"
+msgstr ""
+"Je hebt geen antwoord geselecteerd. Weet je zeker dat je wilt doorgaan?"
+
+#: controllers/init.php:499
+msgid "You have not answered a required question"
+msgstr "Je hebt een vereiste vraag niet beantwoord."
+
+#: controllers/init.php:500
+msgid "Please wait..."
+msgstr "Een ogenblik geduld alstublieft..."
+
+#: controllers/init.php:501
+msgid "Try again"
+msgstr "Probeer het opnieuw"
+
+#: controllers/init.php:502
+msgid "Sorry, your time is over! I'm submitting your results... Done!"
+msgstr "Sorry, je tijd is op! Je resultaten worden opgestuurd... Klaar!"
+
+#: controllers/init.php:503
+msgid "seconds"
+msgstr "seconden"
+
+#: controllers/init.php:504
+msgid "minutes and"
+msgstr "minuten en"
+
+#: controllers/init.php:505
+msgid "hours,"
+msgstr "uur,"
+
+#: controllers/init.php:506 views/show_exam.php:10
+msgid "Time left:"
+msgstr "Resterende tijd:"
+
+#: controllers/init.php:507
+msgid "Please enter your email address"
+msgstr "Vul alsjeblieft je emailadres in"
+
+#: controllers/init.php:508
+msgid "Please enter your name"
+msgstr "Vul alsjeblieft je naam in"
+
+#: controllers/init.php:509
+msgid "You are not on the last page. Are you sure you want to submit the quiz?"
+msgstr ""
+"Dit is niet de laatste pagina. Weet je zeker dat je de test wilt insturen?"
+
+#: controllers/init.php:510
+msgid "Please first answer the question"
+msgstr "Beantwoord eerst de vraag"
+
+#: controllers/init.php:511
+msgid "Your work has been saved. You can come later to continue."
+msgstr "Je werk is opgeslagen. Je kunt later terugkeren om verder te gaan."
+
+#: controllers/init.php:512
+msgid "Are you sure you want to submit the quiz?"
+msgstr "Weet je zeker dat je de test wilt insturen?"
+
+#: controllers/init.php:513
+msgid "Details of submitted quiz"
+msgstr "Details van de ingestuurde test"
+
+#: controllers/init.php:514
+msgid "You need to enter the image verification code"
+msgstr "Je moet de volgende afbeelding overtypen ter verificatie"
+
+#: controllers/init.php:557 views/my_exams.php:1
+msgid "My %s"
+msgstr "Mijn %s"
+
+#: controllers/init.php:557 controllers/init.php:567
+#: i/views/payment-options.html.php:2 models/user.php:11 views/my_exams.php:1
+#: views/my_exams.php:7 views/options.php:4 views/options.php:70
+#: views/options.php:110
+msgid "Quizzes"
+msgstr "Toetsen"
+
+#: controllers/init.php:558 views/my_certificates.php:2
+msgid "My Certificates"
+msgstr "Mijn certificaten"
+
+#: controllers/init.php:562
+msgid "View certificate"
+msgstr "Bekijk certificaat"
+
+#. Plugin Name of the plugin/theme
+#: controllers/init.php:566
+msgid "Watu PRO"
+msgstr "Watu PRO"
+
+#: controllers/init.php:568 views/certificates.php:2
+msgid "Watu PRO Certificates"
+msgstr "Watu PRO Certificaten"
+
+#: controllers/init.php:568 models/user.php:12
+msgid "Certificates"
+msgstr "Certificaten"
+
+#: controllers/init.php:569
+msgid "Quiz Categories"
+msgstr "Toetscategorieën"
+
+#: controllers/init.php:571
+msgid "Question Categories"
+msgstr "Vraagcategorieën"
+
+#: controllers/init.php:574
+msgid "Modules"
+msgstr "Modules"
+
+#: controllers/init.php:580
+msgid "Help"
+msgstr "Hulp"
+
+#: controllers/init.php:583
+msgid "Add/Edit Exam"
+msgstr "Toets wijzigen/toevoegen"
+
+#: controllers/init.php:584
+msgid "Add/Edit Question"
+msgstr "Vraag wijzigen/toevoegen"
+
+#: controllers/init.php:585 views/exam_form.php:8 views/exams.php:36
+#: views/grades.php:6
+msgid "Manage Questions"
+msgstr "Beheer vragen"
+
+#: controllers/init.php:586
+msgid "Taken Exam Data"
+msgstr "Gegevens van afgelegde toetsen"
+
+#: controllers/init.php:587 views/exam_form.php:9 views/exams.php:37
+#: views/questions.php:8
+msgid "Manage Grades"
+msgstr "Beheer cijfers"
+
+#: controllers/init.php:588
+msgid "Copy Exam"
+msgstr "Kopieer toets"
+
+#: controllers/init.php:589
+msgid "Users Who Earned Certificate"
+msgstr "Gebruikers met certificaat"
+
+#: controllers/init.php:590 views/edit-choice.html.php:2
+msgid "Editing an answer to question"
+msgstr "Antwoord op de vraag wijzigen"
+
+#: controllers/init.php:591
+msgid "Advanced questions import"
+msgstr "Geavanceerd vragen importeren"
+
+#: controllers/live-result.php:25
+msgid "Sorry, we couldn't retrieve the answer"
+msgstr "Sorry, we konden het antwoord niet vinden"
+
+#: controllers/questions.php:227 controllers/questions.php:235
+msgid "Another category with this name already exists."
+msgstr "Er bestaat al een categorie met deze naam."
+
+#: controllers/shortcodes.php:71 controllers/shortcodes.php:92
+#: modules/reports/controllers/shortcodes.php:12
+msgid "This content is only for logged in users"
+msgstr "Deze inhoud kan alleen door ingelogde gebruikers worden bekeken."
+
+#: controllers/shortcodes.php:115 i/views/payments.html.php:22
+msgid "User"
+msgstr "Gebruiker"
+
+#: controllers/shortcodes.php:115 i/models/teacher.php:66
+#: i/views/exam_form_intelligence.php:34 i/views/exam_form_intelligence.php:49
+#: i/views/teacher-edit-details.php:12 modules/reports/models/stats.php:136
+#: modules/reports/views/all-question-answers.html.php:17
+#: modules/reports/views/all-question-answers.html.php:28
+#: views/my_exams.php:31 views/takings.php:88
+msgid "Points"
+msgstr "Punten"
+
+#: controllers/takings.php:22
+msgid "You can manage only the results on exams created by you."
+msgstr ""
+"Je kunt alleen de resultaten beheren van toetsen die door jou gemaakt zijn."
+
+#: controllers/takings.php:31
+msgid "You can only view results on your own quizzes."
+msgstr "Je kunt alleen de resultaten van je eigen toetsen bekijken."
+
+#: helpers/htmlhelper.php:218
+msgid "Enter email to receive quiz results:"
+msgstr "Vul je emailadres in om de toetsresultaten te ontvangen:"
+
+#: i/controllers/multiuser.php:56
+msgid "You are not allowed to do this."
+msgstr "Dit is niet toegestaan."
+
+#: i/controllers/payments.php:9
+msgid "No exam with this ID"
+msgstr "Er is geen toets met dit kenmerk beschikbaar."
+
+#: i/controllers/payments.php:15
+msgid "Unrecognized user login"
+msgstr "Deze gebruiker kon niet worden gevonden"
+
+#: i/controllers/practice.php:10 show_exam.php:89
+msgid "Please go to <a href='%s'>%s</a> to view this test"
+msgstr "Bezoek <a href='%s'>%s</a> om de toets te bekijken"
+
+#: i/controllers/practice.php:29
+msgid "Check"
+msgstr "Check"
+
+#: i/controllers/practice.php:74
+msgid "You answered:"
+msgstr "Jij gaf als antwoord:"
+
+#: i/models/exam_intel.php:23
+msgid "days"
+msgstr "dagen"
+
+#: i/models/exam_intel.php:23
+msgid "hours"
+msgstr "uren"
+
+#: i/models/grade.php:7 i/models/grade.php:8
+#: i/views/advanced-settings.html.php:40 models/grade.php:9
+#: models/grade.php:10
+msgid "None"
+msgstr "Geen"
+
+#: i/models/i.php:41
+msgid "Manually Grade Test Results"
+msgstr "Handmatig de toetsen beoordelen"
+
+#: i/models/i.php:44
+msgid "Exam Payments"
+msgstr "Toetsbetalingen"
+
+#: i/models/i.php:47
+msgid "Advanced Quiz Settings"
+msgstr "Geavanceerde toetsinstellingen"
+
+#: i/models/i.php:50
+msgid "WatuPRO Multiuser Configurations"
+msgstr "WatuPRO Instellingen voor meerdere gebruikers"
+
+#: i/models/payment.php:48
+msgid "Not enough points."
+msgstr "Niet voldoende punten."
+
+#: i/models/payment.php:51
+msgid "Pay %d points"
+msgstr "Betaal voor %d punten"
+
+#: i/models/question.php:132 models/user.php:33
+msgid "or"
+msgstr "of"
+
+#: i/models/question.php:133
+msgid "(correct answer: %s)"
+msgstr "(het juiste antwoord: %s)"
+
+#: i/models/question.php:137
+msgid "[no answer]"
+msgstr "[geen antwoord]"
+
+#: i/models/teacher.php:65 i/views/teacher-edit-details.php:11
+#: views/questions.php:89 views/taking_details.php:28
+msgid "Question"
+msgstr "Vraag"
+
+#: i/models/teacher.php:66 views/taking_details.php:28
+msgid "Answer(s) given"
+msgstr "Antwoord(en) gegeven"
+
+#: i/models/teacher.php:67 modules/reports/models/stats.php:136
+#: modules/reports/views/all-question-answers.html.php:18
+#: modules/reports/views/all-question-answers.html.php:29
+msgid "Is Correct?"
+msgstr "Is juist?"
+
+#: i/models/teacher.php:67
+msgid "Comments"
+msgstr "Commentaar"
+
+#: i/models/teacher.php:72
+msgid "yes"
+msgstr "ja"
+
+#: i/models/teacher.php:72
+msgid "no"
+msgstr "nee"
+
+#: i/views/advanced-settings.html.php:2
+msgid "Advanced Settings for Power Users"
+msgstr "Geavanceerde instellingen (voor power users)"
+
+#: i/views/advanced-settings.html.php:3
+msgid "Exam: \"%s\""
+msgstr "Toets: \"%s\""
+
+#: i/views/advanced-settings.html.php:7
+msgid ""
+"This page contains some advanced settings for power users that are left out "
+"of the main exam form for clarity."
+msgstr ""
+"Deze pagina bevat enkele geavanceerde instellingen die power users kunnen "
+"gebruiken, maar die worden weggelaten bij het primaire scherm om verwarring "
+"te voorkomen."
+
+#: i/views/advanced-settings.html.php:11
+msgid "Advanced Final Screen Settings"
+msgstr "Geavanceerde instellingen voor het resultaatscherm"
+
+#: i/views/advanced-settings.html.php:12
+msgid "Ask for confirmation when the \"Submit\" button is pressed."
+msgstr "Vraag om bevestiging zodra op de \"Submit\" knop wordt gedrukt."
+
+#: i/views/advanced-settings.html.php:14
+msgid "Do not show correct / incorrect checkmarks at all."
+msgstr "Laat de juist / onjuist vinkjes helemaal niet zien."
+
+#: i/views/advanced-settings.html.php:15
+msgid ""
+"Do not show correct / incorrect checkmarks on unresolved questions to avoid "
+"right answers being revealed."
+msgstr ""
+"Toon de juist / onjuist vinkjes niet voor vragen die nog niet beantwoord "
+"zijn, zodat het juiste antwoord niet wordt verklapt."
+
+#: i/views/advanced-settings.html.php:16
+msgid ""
+"Reveal the correct answers on unanswered and wrongly answered fields in "
+"\"Fill the gaps\" questions."
+msgstr ""
+"Toon de juiste antwoorden voor niet-beantwoorde of foutief beantwoorden "
+"vragen in \"Fill the gaps\" opdrachten."
+
+#: i/views/advanced-settings.html.php:19
+msgid "Email Related Configuration"
+msgstr "Verzend de instellingen per email."
+
+#: i/views/advanced-settings.html.php:21
+msgid ""
+"Entering email to receive quiz results is optional for non-logged in users. "
+"(Takes effect only when you have selected \"Send email to the user with "
+"their results\")"
+msgstr ""
+"Het invoeren van het emailadres is optioneel voor gebruikers die niet zijn "
+"ingelogd. (Dit werkt alleen indien \"Send email to the user with their "
+"results\" is geselecteerd)"
+
+#: i/views/advanced-settings.html.php:24
+msgid "Student Dashboard Settings"
+msgstr "Instellingen voor het dashboard van cursisten"
+
+#: i/views/advanced-settings.html.php:26
+msgid ""
+"Show only snapshot when user opens taken quiz details pop-up. Admins/"
+"teachers will still be able to get the table format and CSV download."
+msgstr ""
+"Toon slechts een selectie van de test wanneer de gebruiker de details van "
+"een test opvraagt. Beheerders/docenten kunnen nog steeds de volledige tabel "
+"bekijken en downloaden als CSV."
+
+#: i/views/advanced-settings.html.php:29
+msgid "Paginator Settings"
+msgstr "Instellingen voor het pagineren"
+
+#: i/views/advanced-settings.html.php:31
+msgid ""
+"This configuration takes effect for quizzes that use numbered pagination. "
+"For the colors below you can enter words like \"red\", \"orange\", etc, or "
+"HTML color value like \"#FFCCAA\"."
+msgstr ""
+"Deze instellingen hebben betrekking op toetsen die genummerde pagina's "
+"gebruiken.  Om de kleuren te wijzigen kun je woorden gebruiken zoals \"red"
+"\", \"orange\", etc (maar wel Engels), of HTML kleurwaarden: \"#FFCCAA\"."
+
+#: i/views/advanced-settings.html.php:33
+msgid "Color of answered question number (defaults to green):"
+msgstr "Kleur van beantwoorde vragen (standaard: groen):"
+
+#: i/views/advanced-settings.html.php:34
+msgid "Color of unanswered question number (defaults to red):"
+msgstr "Kleur van niet-beantwoorde vragen (standaard: rood):"
+
+#: i/views/advanced-settings.html.php:37
+msgid "Answers Enumeration"
+msgstr "Weergaveinstellingen van antwoordlijsten"
+
+#: i/views/advanced-settings.html.php:38
+msgid ""
+"This lets you enumerate the answers to single-choice and multiple-choice "
+"questions with numbers, small letters, or capital letters."
+msgstr ""
+"Dit biedt de mogelijkheid om de weergave van lijsten met antwoorden (voor "
+"enkelvoudige- en multiple choice vragen) te wijzigen in nummers, kleine "
+"letters of hoofdletters."
+
+#: i/views/advanced-settings.html.php:39
+msgid "Enumerator:"
+msgstr "Opsomming:"
+
+#: i/views/advanced-settings.html.php:41
+msgid "Numbers"
+msgstr "Nummers"
+
+#: i/views/advanced-settings.html.php:42
+msgid "Capital letters"
+msgstr "Hoofdletters"
+
+#: i/views/advanced-settings.html.php:43
+msgid "Small letters"
+msgstr "Kleine letters"
+
+#: i/views/advanced-settings.html.php:47
+msgid "Advanced Question Randomization"
+msgstr "Geavanceerde instellingen voor willekeurige vraagvolgorde"
+
+#: i/views/advanced-settings.html.php:49
+msgid "Randomization currenty not in effect."
+msgstr "Willekeurige volgorde is momenteel niet in gebruik"
+
+#: i/views/advanced-settings.html.php:49
+msgid ""
+"You need to pull random questions per category on the main page for this to "
+"have any effect."
+msgstr ""
+"Deze instelling heeft alleen effect als er willekeurig vragen worden "
+"geselecteerd per categorie. Dit kan worden ingesteld op de hoofdpagina."
+
+#: i/views/advanced-settings.html.php:53
+msgid ""
+"You have chosen to pull %d random questions per category. Here you can "
+"elaborate by selecting specific random number for every question category."
+msgstr ""
+"Er worden %d vragen willekeurig getrokken uit iedere categorie. Hier kun je "
+"nader specificeren hoeveel vragen per categorie worden geselecteerd."
+
+#: i/views/advanced-settings.html.php:57
+msgid "Order"
+msgstr "Volgorde"
+
+#: i/views/advanced-settings.html.php:57 views/cat.php:2 views/exams.php:34
+#: views/my_exams.php:11 views/questions.php:91
+msgid "Category"
+msgstr "Categorie"
+
+#: i/views/advanced-settings.html.php:57
+msgid "No. questions"
+msgstr "Aantal vragen"
+
+#: i/views/advanced-settings.html.php:64
+msgid "Save Advanced Settings"
+msgstr "Geavanceerde instellingen opslaan"
+
+#: i/views/answer_area.php:2 views/question_form.php:159
+msgid "Answers"
+msgstr "Antwoorden"
+
+#: i/views/answer_area.php:4
+msgid ""
+"For sorting questions simply enter your values one per line in the correct "
+"way they should be sorted.<br> Feel free to leave blank lines for your own "
+"clarity.<br> If a value needs to contain a new line, use the HTML &lt;br&gt; "
+"tag and not a real new line."
+msgstr ""
+"Om vragen te sorteren vul je de antwoorden simpelweg in de juiste volgorde "
+"in.<br> Het is toegestaan antwoorden leeg te laten voor je eigen overzicht."
+"<br> Als een antwoord ook een return (nieuwe regel) moet bevatten, gebruik "
+"dan de HTML tag &lt;br&gt; en niet een gewone return."
+
+#: i/views/exam_form_intelligence.php:2
+msgid "Intelligence Module Settings"
+msgstr "Instellingen voor de kennismodule"
+
+#: i/views/exam_form_intelligence.php:4
+msgid "Set exam mode:"
+msgstr "Stel toetstype in:"
+
+#: i/views/exam_form_intelligence.php:5
+msgid "Live exam"
+msgstr "Live toets"
+
+#: i/views/exam_form_intelligence.php:6
+msgid "Practice mode"
+msgstr "Oefentoets"
+
+#: i/views/exam_form_intelligence.php:9
+msgid "What's this?"
+msgstr "Wat is dit?"
+
+#: i/views/exam_form_intelligence.php:13
+msgid ""
+"Treat this quiz as a personality quiz: answers will be matched to results "
+"instead of calculating the points."
+msgstr ""
+"Beschouw deze toets als een persoonlijkheidstoets: antwoorden worden "
+"vergeleken met resultaten, in plaats van het berekenen van een score."
+
+#: i/views/exam_form_intelligence.php:17
+msgid "Dependencies"
+msgstr "Afhankelijkheden"
+
+#: i/views/exam_form_intelligence.php:20 i/views/exam_form_intelligence.php:62
+msgid ""
+"This feature becomes active only when <strong>Require user log-in</strong> "
+"option in the <strong>Exam Settings</strong> section is selected."
+msgstr ""
+"Deze functie is alleen beschikbaar als de instelling <strong>Vereis "
+"inloggen</strong> bij de <strong>Toetsinstellingen</strong> is ingeschakeld."
+
+#: i/views/exam_form_intelligence.php:24
+msgid ""
+"Let the user access this exam only after they have completed the following "
+"ones:"
+msgstr ""
+"De gebruiker mag deze toets pas doen als de volgende toetsen zijn afgelegd:"
+
+#: i/views/exam_form_intelligence.php:28 i/views/exam_form_intelligence.php:43
+#: i/views/teacher-edit-details.php:5
+msgid "Exam:"
+msgstr "Toets:"
+
+#: i/views/exam_form_intelligence.php:29 i/views/exam_form_intelligence.php:44
+msgid "- Select exam -"
+msgstr "- Selecteer toets -"
+
+#: i/views/exam_form_intelligence.php:33 i/views/exam_form_intelligence.php:48
+msgid "is completed with at least"
+msgstr "is afgerond met tenminste"
+
+#: i/views/exam_form_intelligence.php:35 i/views/exam_form_intelligence.php:50
+#: i/views/lock_details.php:11
+msgid "% correct answers"
+msgstr "% juiste antwoorden"
+
+#: i/views/exam_form_intelligence.php:36 i/views/exam_form_intelligence.php:51
+msgid "achieved"
+msgstr "gearchiveerd"
+
+#: i/views/exam_form_intelligence.php:37
+msgid "Mark To Delete"
+msgstr "Markeer voor verwijderen"
+
+#: i/views/exam_form_intelligence.php:39
+msgid "Restore"
+msgstr "Terugzetten"
+
+#: i/views/exam_form_intelligence.php:52
+msgid "Add New Dependency"
+msgstr "Voeg afhankelijkheid toe"
+
+#: i/views/exam_form_intelligence.php:59
+msgid "Payment Settings"
+msgstr "Instellingen voor betalingen"
+
+#: i/views/exam_form_intelligence.php:66
+msgid "Charge"
+msgstr "Prijs"
+
+#: i/views/exam_form_intelligence.php:66
+msgid "for accessing this exam."
+msgstr "om toegang te krijgen tot deze toets."
+
+#: i/views/exam_form_intelligence.php:67
+msgid ""
+"If you leave zero in the box above, there will be no charge for users to "
+"access the exam. To manage your payments settings to to "
+msgstr ""
+"Als je hier 0 laat staan dan is er geen betaling vereist voor toegang tot "
+"deze toets. Om je betalingsinstellingen te wijzigen ga je naar"
+
+#: i/views/exam_form_intelligence.php:67
+msgid "WatuPRO Settings"
+msgstr "WatuPRO instellingen"
+
+#: i/views/exam_form_intelligence.php:97
+msgid "Please select exam"
+msgstr "Selecteer een toets"
+
+#: i/views/exam_form_intelligence.php:111
+msgid "You already have this dependency!"
+msgstr "Deze afhankelijkheid bestaat al!"
+
+#: i/views/exam_form_intelligence.php:124 i/views/payments.html.php:23
+#: i/views/payments.html.php:34 views/exams.php:62 views/groups.php:27
+#: views/question_cats.php:41 views/questions.php:134 views/takings.php:89
+msgid "Delete"
+msgstr "Verwijder"
+
+#: i/views/grade-to-answer.html.php:1 views/question_form.php:24
+msgid "assign to grade:"
+msgstr "toekennen aan cijfer:"
+
+#: i/views/grade-to-answer.html.php:3 views/question_form.php:24
+msgid "- please select -"
+msgstr "- selecteer... -"
+
+#: i/views/lock_details.php:2
+msgid "This exam is currently locked."
+msgstr "Deze toets is momenteel geblokkeerd."
+
+#: i/views/lock_details.php:3
+msgid ""
+"To take this exam you need first to complete the following dependencies:"
+msgstr ""
+"Om deze toets af te leggen moet aan de volgende voorwaarden zijn voldaan:"
+
+#: i/views/lock_details.php:6
+msgid "Dependency"
+msgstr "Afhankelijkheid"
+
+#: i/views/lock_details.php:6 i/views/payments.html.php:23
+#: views/users-earned-certificate.html.php:16
+msgid "Status"
+msgstr "Status"
+
+#: i/views/lock_details.php:8
+msgid "The exam"
+msgstr "De toets"
+
+#: i/views/lock_details.php:10
+msgid "with at least %d"
+msgstr "met tenminste %d"
+
+#: i/views/lock_details.php:12 i/views/payments.html.php:26
+msgid "points"
+msgstr "punten"
+
+#: i/views/lock_details.php:14
+msgid "successfully"
+msgstr "succesvol"
+
+#: i/views/multiuser.html.php:2
+msgid "Manage multi-user configurations in Watu PRO"
+msgstr "Beheer multi-user instellingen in Watu PRO"
+
+#: i/views/multiuser.html.php:5
+msgid ""
+"To edit this page you need to enable some roles to manage exams on the <a "
+"href=\"%s\" target=_blank\">Watu PRO Settings page</a>."
+msgstr ""
+"Om deze pagina te bewerken moeten eerst enkele rollen de rechten krijgen om "
+"toetsen te bewerken op de pagina <a href=\"%s\" target=_blank\">Watu PRO "
+"Instellingen</a>."
+
+#: i/views/multiuser.html.php:12
+msgid "Please select role to configure:"
+msgstr "Selecteer een rol die je wilt configureren:"
+
+#: i/views/multiuser.html.php:13
+msgid "- Please select role -"
+msgstr "- Selecteer een rol -"
+
+#: i/views/multiuser.html.php:21
+msgid "Exams access:"
+msgstr "Toegang tot toetsen:"
+
+#: i/views/multiuser.html.php:22
+msgid "Manage all exams"
+msgstr "Beheer alle toetsen"
+
+#: i/views/multiuser.html.php:23
+msgid "Manage only exams created by the user"
+msgstr "Beheer alleen toetsen die de gebruiker zelf heeft gemaakt"
+
+#: i/views/multiuser.html.php:24
+msgid "No access to manage exams"
+msgstr "Geen toegang tot het beheer van toetsen"
+
+#: i/views/multiuser.html.php:27
+msgid "Certificates access:"
+msgstr "Toegang tot certificaten:"
+
+#: i/views/multiuser.html.php:28
+msgid "Manage all certificates"
+msgstr "Beheer alle certificaten"
+
+#: i/views/multiuser.html.php:29
+msgid "Manage only certificates created by the user"
+msgstr "Beheer alleen certificaten die door de gebruiker zelf zijn gemaakt"
+
+#: i/views/multiuser.html.php:30
+msgid "No access to manage certificates"
+msgstr "Geen toegang tot het beheer van certificaten"
+
+#: i/views/multiuser.html.php:33
+msgid "Exam categories access:"
+msgstr "Toetscategorie toegang:"
+
+#: i/views/multiuser.html.php:34
+msgid "Manage all categories"
+msgstr "Beheer alle categorieën"
+
+#: i/views/multiuser.html.php:35
+msgid "Manage only categories created by the user"
+msgstr "Beheer alleen categorieën die door de gebruiker zelf zijn gemaakt"
+
+#: i/views/multiuser.html.php:36
+msgid "No access to manage categories"
+msgstr "Geen toegang tot het beheer van categorieën"
+
+#: i/views/multiuser.html.php:39
+msgid "User group access:"
+msgstr "Beheren van gebruikersgroepen:"
+
+#: i/views/multiuser.html.php:40
+msgid "Manage all user groups"
+msgstr "Beheer alle gebruikersgroepen"
+
+#: i/views/multiuser.html.php:41
+msgid "No access to manage user groups"
+msgstr "Geen toegang tot gebruikersgroepbeheer"
+
+#: i/views/multiuser.html.php:44
+msgid "Question categories access:"
+msgstr "Vraagcategorie toegang:"
+
+#: i/views/multiuser.html.php:45
+msgid "Manage all question categories"
+msgstr "Beheer alle vraagcategorieën"
+
+#: i/views/multiuser.html.php:46
+msgid "Manage only question categories created by the user"
+msgstr "Beheer alleen vraagcategorieën die door de gebruiker zijn gemaakt"
+
+#: i/views/multiuser.html.php:47
+msgid "No access to manage question categories"
+msgstr "Geen toegang tot het beheer van vraagcategorieën"
+
+#: i/views/multiuser.html.php:50
+msgid "Settings page access:"
+msgstr "Instellingentoegang:"
+
+#: i/views/multiuser.html.php:51
+msgid "Manage settings"
+msgstr "Instellingen beheren"
+
+#: i/views/multiuser.html.php:52
+msgid "No access to manage settings"
+msgstr "Geen instellingen beheren"
+
+#: i/views/multiuser.html.php:55
+msgid "Save configuration for this role"
+msgstr "Sla de instellingen voor deze rol op"
+
+#: i/views/payment-options.html.php:2
+msgid "Payment Settings For %s That Require Payment"
+msgstr "Betaalinstellingen voor %s die betaling vereisen"
+
+#: i/views/payment-options.html.php:4
+msgid ""
+"WatuPRO Intelligence module allows you to require payment to access selected "
+"%s."
+msgstr ""
+"De analysekit van WatuPRO maakt het mogelijk om betaling te vereisen voor "
+"geselecteerde %s."
+
+#: i/views/payment-options.html.php:4 i/views/payment-options.html.php:5
+#: views/cats.php:21 views/cats.php:23 views/cats.php:24 views/cats.php:25
+#: views/cats.php:26 views/cats.php:27 views/cats.php:28 views/cats.php:35
+#: views/my_exams.php:4 views/options.php:104 views/questions.php:4
+msgid "quizzes"
+msgstr "toetsen"
+
+#: i/views/payment-options.html.php:5
+msgid ""
+"Do not display these %s in user dashboard until access to them is purchased "
+"(Users with admin rights will always see them)."
+msgstr ""
+"Geef de toetsen %s niet weer in het gebruikersdashboard totdat de betaling "
+"is verricht (gebruikers met beheerdersrechten zien altijd alle toetsen)."
+
+#: i/views/payment-options.html.php:7
+msgid "Payment currency:"
+msgstr "Valuta:"
+
+#: i/views/payment-options.html.php:16
+msgid "Paypal Email ID:"
+msgstr "Paypal Email ID:"
+
+#: i/views/payment-options.html.php:17
+msgid ""
+"If you provide this, a Paypal payment button will be generated and "
+"automatically instant payment notification will enable the user's access to "
+"the exam they have paid for."
+msgstr ""
+"Als je dit gegeven invoert, wordt er automatisch een Paypal betaalknop "
+"weergegeven en krijgen gebruikers direct na betaling toegang tot de toets "
+"waarvoor ze hebben betaald."
+
+#: i/views/payment-options.html.php:19
+msgid "Accept Stripe payments"
+msgstr "Verwerk ook Stripe betalingen"
+
+#: i/views/payment-options.html.php:22
+msgid "Your Public Key:"
+msgstr "Stripe public key:"
+
+#: i/views/payment-options.html.php:23
+msgid "Your Secret Key:"
+msgstr "Stripe secret key:"
+
+#: i/views/payment-options.html.php:28
+msgid "Other payment instructions or button code (optional):"
+msgstr "Programmeercode voor andere betaalwijzen (optioneel):"
+
+#: i/views/payment-options.html.php:32
+msgid ""
+"Use this if you don't want to use Paypal or as additional manual or "
+"automated payment method. You can either textual instructions here, insert a "
+"link, or even payment button HTML code from a different payment system like "
+"2Checkout.com, Stripe etc. "
+msgstr ""
+"Dit kun je gebruiken als je Paypal niet wilt inzetten, of een andere "
+"handmatig ingestelde betaling mogelijk wilt maken. Je kunt bijvoorbeeld "
+"kiezen voor een instructietekst, een link of zelfs HTML code voor "
+"betaalknoppen van andere systemen zoals 2Checkout.com, Stripe etc."
+
+#: i/views/payment-options.html.php:33
+msgid ""
+"In this case you can use the following shortcodes: <strong>[AMOUNT], "
+"[USER_ID], [EXAM_TITLE], and [EXAM_ID]</strong>"
+msgstr ""
+"Bij het gebruik van eigen code heb je beschikking over de volgende "
+"shortcodes: <strong>[AMOUNT], [USER_ID], [EXAM_TITLE], en [EXAM_ID]</strong>"
+
+#: i/views/payment-options.html.php:36
+msgid "View payments error log."
+msgstr "Bekijk foutmeldingen met betrekking tot betalingen"
+
+#: i/views/payment.php:1
+msgid "There is a fee of %s %s to access this exam."
+msgstr "Voor deze toets wordt een bedrag van %s %s gerekend."
+
+#: i/views/payment.php:8 i/views/payment.php:28
+msgid "Exam"
+msgstr "Toets"
+
+#: i/views/payments.html.php:2
+msgid "View payments made for test \"%s\""
+msgstr "Bekijk verwerkte betalingen voor de toets: \"%s\""
+
+#: i/views/payments.html.php:4
+msgid "Back to the record of users who submitted this exam."
+msgstr "Terug naar het overzicht van gebruikers die deze toets hebben gemaakt."
+
+#: i/views/payments.html.php:7
+msgid "Manually add payment"
+msgstr "Handmatig toegevoegde betaling"
+
+#: i/views/payments.html.php:8
+msgid ""
+"This will allow the user to take the exam like when they paid the fee "
+"through the website. You can use it to insert payments made by unsupported "
+"payment methods or just to allow someone take the exam for free."
+msgstr ""
+"Dit maakt het mogelijk voor de gebruiker om de toets te maken alsof ze "
+"hebben betaald via de website. Dit kan worden gebruikt om niet-ondersteunde "
+"betalingswijzen vast te leggen, of om iemand simpelweg gratis toegang te "
+"geven tot de toets."
+
+#: i/views/payments.html.php:9
+msgid "Username:"
+msgstr "Gebruikersnaam:"
+
+#: i/views/payments.html.php:9
+msgid "Amount paid:"
+msgstr "Betaald bedrag:"
+
+#: i/views/payments.html.php:10
+msgid "Add manual payment"
+msgstr "Voeg betaling toe"
+
+#: i/views/payments.html.php:16
+msgid "No payments have been done yet for this exam"
+msgstr "Nog geen betalingen voor deze toets verricht"
+
+#: i/views/payments.html.php:22
+msgid "Date paid"
+msgstr "Betaaldatum"
+
+#: i/views/payments.html.php:22
+msgid "Amount"
+msgstr "Bedrag"
+
+#: i/views/payments.html.php:23
+msgid "Payment method"
+msgstr "Betaalwijze"
+
+#: i/views/payments.html.php:28
+msgid "Completed"
+msgstr "Afgerond"
+
+#: i/views/payments.html.php:29
+msgid "Make Pending"
+msgstr "Stel in op \"In behandeling...\""
+
+#: i/views/payments.html.php:30
+msgid "Pending"
+msgstr "In behandeling..."
+
+#: i/views/payments.html.php:31
+msgid "Complete"
+msgstr "Voltooid"
+
+#: i/views/payments.html.php:40
+#: modules/reports/views/all-question-answers.html.php:64
+#: views/takings.php:115
+msgid "previous page"
+msgstr "vorige pagina"
+
+#: i/views/payments.html.php:44
+#: modules/reports/views/all-question-answers.html.php:68
+#: views/takings.php:119
+msgid "next page"
+msgstr "volgende pagina"
+
+#: i/views/payments.html.php:51 i/views/payments.html.php:57 views/cat.php:66
+#: views/certificate.php:83 views/grades.php:137 views/groups.php:52
+#: views/users-earned-certificate.html.php:39
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: i/views/question_form.php:1
+msgid "Fill The Gaps"
+msgstr "Vul de lege plekken in"
+
+#: i/views/question_form.php:2 views/questions.php:123
+msgid "Sort the values"
+msgstr "Sorteer de antwoorden"
+
+#: i/views/question_form.php:5
+msgid ""
+"For \"fill the gaps\" questions simply enter your <b>correct text</b> and "
+"place {{{ and }}} around the phrases that should turn into gaps (no spaces "
+"please). Example: \"<b>The color of sun is {{{yellow}}}.</b>\" The student "
+"will be shown input field instead of \"{{{yellow}}}\" in this case."
+msgstr ""
+"Om \"fill the gaps\" vragen te maken voer je de <strong>complete tekst</"
+"strong> in en zet je rond de woorden die als opening moeten dienen "
+"{{{ en }}} als tekens (geen spaties svp). Voorbeeld: \"<b>De kleur van de "
+"zon is {{{geel}}}</b>\"De gebruiker zal een invoerveld te zien krijgen in "
+"plaats van \"{{{geel}}}\" bij dit voorbeeld."
+
+#: i/views/question_form.php:6
+msgid ""
+"You can include multiple correct answers for each blank/gap if you separate "
+"them by |. For example: <b>\"The color of a good apple can be {{{green|"
+"yellow|red}}}\"</b>."
+msgstr ""
+"Voor open plekken kun je meerdere correcte antwoorden opgeven door ze te "
+"scheiden met het teken \"|\". Bijvoorbeeld: <b>\"De kleur van een verse "
+"appel kan {{{geel|groen|rood}}} zijn\"</b>."
+
+#: i/views/question_form.php:7
+msgid "Points to assign for correctly filled gap:"
+msgstr "Het aantal punten voor een correct ingevulde open plaats:"
+
+#: i/views/question_form.php:7
+msgid "Points to assign for incorrectly filled gap (optional):"
+msgstr "Punten voor een foutief ingevulde open plek (optioneel):"
+
+#: i/views/question_form.php:7 i/views/question_form.php:13
+msgid "(Decimals allowed)"
+msgstr "(kommagetallen zijn toegestaan)"
+
+#: i/views/question_form.php:12
+msgid "Treat this question as a whole"
+msgstr "Behandel deze vraag als 1 geheel"
+
+#: i/views/question_form.php:13 i/views/question_form.php:23
+msgid "Points to assign for correctly matched position:"
+msgstr "Punten toegekend voor een correcte plaats in de rangorde:"
+
+#: i/views/question_form.php:13 i/views/question_form.php:19
+msgid "Points to assign for when all positions are matched correctly:"
+msgstr "Punten indien alle posities correct:"
+
+#: i/views/question_form.php:13 i/views/question_form.php:24
+msgid "Points to assign for incorrectly matched position (optional):"
+msgstr "Punten voor foutief geplaatste items (optioneel):"
+
+#: i/views/question_form.php:13 i/views/question_form.php:20
+msgid ""
+"Points to assign when there is a mistake in ordering the items (optional):"
+msgstr "Punten voor een foutieve volgorde in de items (optioneel):"
+
+#: i/views/reuse_questions.php:2
+msgid "Reuse questions from another quiz."
+msgstr "Hergebruik vragen uit een andere toets."
+
+#: i/views/reuse_questions.php:3
+msgid "- Please select -"
+msgstr "- Selecteer... -"
+
+#: i/views/reuse_questions.php:8 views/exam_form.php:207 views/groups.php:26
+#: views/question_cats.php:40 views/questions.php:166 views/show_exam.php:77
+msgid "Save"
+msgstr "Opslaan"
+
+#: i/views/teacher-edit-details.php:1
+msgid "Edit and Manually Grade Test Results"
+msgstr "Wijzigen en handmatig de uitslag beoordelen"
+
+#: i/views/teacher-edit-details.php:4
+msgid "Student:"
+msgstr "Gebruiker:"
+
+#: i/views/teacher-edit-details.php:7
+msgid ""
+"You can use this page to manually edit and grade the submitted test details"
+msgstr ""
+"Deze pagina kan worden gebruikt om handmatig de uitslag en score te bewerken"
+
+#: i/views/teacher-edit-details.php:11
+msgid "Answer Given"
+msgstr "Gegeven antwoord"
+
+#: i/views/teacher-edit-details.php:12
+msgid "Is correct?"
+msgstr "Is dit juist?"
+
+#: i/views/teacher-edit-details.php:13
+msgid "Optional comments"
+msgstr "Commentaar (optioneel)"
+
+#: i/views/teacher-edit-details.php:25
+msgid "I want to sent email to the user with the updated details"
+msgstr "Stuur een email naar de gebruiker met de bijgewerkte informatie"
+
+#: i/views/teacher-edit-details.php:28
+msgid "Receiver email"
+msgstr "Emailadres ontvanger"
+
+#: i/views/teacher-edit-details.php:29
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+#: i/views/teacher-edit-details.php:30
+msgid "Message:"
+msgstr "Berichttekst:"
+
+#: i/views/teacher-edit-details.php:35
+msgid "Update Test Results"
+msgstr "Bijgewerkte toetsuitslag"
+
+#: i/views/teacher-edit-details.php:44
+msgid "Please enter receiver email"
+msgstr "Voer emailadres van ontvanger in"
+
+#: i/views/teacher-edit-details.php:50
+msgid "Please enter email subject"
+msgstr "Voer het onderwerp voor de email in"
+
+#: lib/watupro.php:85 lib/watupro.php:93
+msgid "Your results on "
+msgstr "Jouw score op"
+
+#: lib/watupro.php:106
+msgid "User results on "
+msgstr "Gebruiker score op"
+
+#: lib/watupro.php:123 lib/watupro.php:153
+msgid "Sorry, you can take this quiz only %d times."
+msgstr "Helaas, je kunt deze toets maximaal %d keer afleggen."
+
+#: lib/watupro.php:143
+msgid "Sorry, you are not allowed to submit this quiz."
+msgstr "Sorry, je mag deze toets niet insturen"
+
+#: lib/watupro.php:170
+msgid ""
+"You can't take this quiz again because of the latest grade you achieved on "
+"it."
+msgstr ""
+"Je mag deze toets niet opnieuw maken, in verband met een eerder behaalde "
+"score."
+
+#: lib/watupro.php:184
+msgid "Sorry, you can take this %s only once!"
+msgstr "Sorry, je kunt deze %s maar een keer doen!"
+
+#: lib/watupro.php:184 views/question_form.php:183 views/questions.php:6
+#: views/taking_details.php:3 views/taking_details.php:12
+#: views/usable-variables.php:9 views/usable-variables.php:15
+#: views/usable-variables.php:24 views/usable-variables.php:25
+msgid "quiz"
+msgstr "toets"
+
+#: lib/watupro.php:336
+msgid "Failed"
+msgstr "Niet gehaald"
+
+#: lib/watupro.php:336
+msgid "Just Passed"
+msgstr "Net gehaald"
+
+#: lib/watupro.php:337
+msgid "Satisfactory"
+msgstr "Voldoende"
+
+#: lib/watupro.php:337
+msgid "Competent"
+msgstr "Meer dan voldoende"
+
+#: lib/watupro.php:337
+msgid "Good"
+msgstr "Goed"
+
+#: lib/watupro.php:337
+msgid "Very Good"
+msgstr "Erg goed"
+
+#: lib/watupro.php:337
+msgid "Excellent"
+msgstr "Uitstekend"
+
+#: lib/watupro.php:337
+msgid "Unbeatable"
+msgstr "Onverslaanbaar"
+
+#: lib/watupro.php:337
+msgid "Cheater"
+msgstr "Valsspeler"
+
+#: lib/watupro.php:388
+msgid ""
+"Note: This quiz requires payment, but you are administrator and do not need "
+"to go through it."
+msgstr ""
+"Noot: deze toets vereist betaling, maar omdat je beheerder bent hoef je niet "
+"door de betalingsmodule."
+
+#: models/certificate.php:17
+msgid "You can now "
+msgstr "Je kunt nu"
+
+#: models/certificate.php:17 views/my_certificates.php:17
+msgid "print your certificate"
+msgstr "je certificaat uitprinten"
+
+#: models/certificate.php:37
+msgid "A certificate is earned and is pending approval."
+msgstr "Er is een certificaat toegekend dat wacht op beoordeling."
+
+#: models/certificate.php:38
+msgid ""
+"The user \"%%user-name%%\" has earned the certificate \"%%certificate-name%%"
+"\".  \n"
+"\t\tTo view users who are pending approvals on this certificate visit %%url%%"
+msgstr ""
+"De gebruiker met gebruikersnaam: \"%%user-name%%\" heeft het volgende "
+"certificaat behaald: \"%%certificate-name%%\".  \n"
+"\t\tOm certificaten in afwachting te beoordelen bezoek je de volgende "
+"pagina: %%url%%"
+
+#: models/exam.php:9
+msgid "Invalid exam ID"
+msgstr "Onjuist examen ID"
+
+#: models/exam.php:49
+msgid "(Copy)"
+msgstr "(Kopieer)"
+
+#: models/exam.php:365
+msgid "Start Exam!"
+msgstr "Start de toets!"
+
+#: models/question.php:499
+msgid "Question was not answered"
+msgstr "De vraag is niet beantwoord"
+
+#: models/question.php:632
+msgid "[Get Hints]"
+msgstr "[Toon een hint]"
+
+#: models/record.php:10
+msgid "Username;Email;IP;Date;Points;Grade"
+msgstr "Gebruikersnaam;Email;IP;Datum;Punten;Cijfer"
+
+#: models/record.php:16
+msgid "Username;Email;IP;Date;"
+msgstr "Gebruikersnaam;Email;IP;Datum;"
+
+#: models/record.php:25
+msgid "Points;Grade"
+msgstr "Punten;Cijfer"
+
+#: models/user.php:5
+msgid "%s Data"
+msgstr "%s gegevens"
+
+#: models/user.php:5 modules/reports/models/user.php:5
+#: modules/reports/views/history.php:48 modules/reports/views/tests.php:12
+#: views/advanced-import.html.php:4 views/my_exams.php:10
+msgid "Quiz"
+msgstr "Toets"
+
+#: models/user.php:11
+msgid "%s"
+msgstr "%s"
+
+#: models/user.php:17
+msgid "View reports"
+msgstr "Bekijk rapportages"
+
+#: models/user.php:30
+msgid "You need to be registered and logged in to take this exam."
+msgstr "Je moet geregistreerd en ingelogd zijn om deze toets te maken"
+
+#: models/user.php:31
+msgid "Log in"
+msgstr "Inloggen"
+
+#: models/user.php:33
+msgid "Register"
+msgstr "Registreren"
+
+#: models/user.php:38
+msgid "You are not allowed to access this exam at the moment."
+msgstr "Je hebt op dit moment geen toegang tot deze toets."
+
+#: modules/reports/models/reports.php:9
+msgid "Quiz Reports"
+msgstr "Toetsrapportages"
+
+#: modules/reports/models/reports.php:13
+#: modules/reports/views/per-question.php:3
+msgid "Stats Per Question"
+msgstr "Statistieken per vraag"
+
+#: modules/reports/models/reports.php:13
+msgid "Status Per Question"
+msgstr "Status per vraag"
+
+#: modules/reports/models/reports.php:15
+msgid "All Question Answers"
+msgstr "Alle antwoorden op de vragen"
+
+#: modules/reports/models/reports.php:17
+msgid "Chart By Grade"
+msgstr "Grafiek obv cijfer"
+
+#: modules/reports/models/reports.php:31
+msgid "Showing quiz reports for "
+msgstr "Toont toetsrapportages voor"
+
+#: modules/reports/models/stats.php:135
+msgid "User name"
+msgstr "Gebruikersnaam"
+
+#: modules/reports/models/stats.php:135
+#: modules/reports/views/all-question-answers.html.php:15 views/takings.php:33
+#: views/takings.php:87
+msgid "Email"
+msgstr "Email"
+
+#: modules/reports/models/stats.php:135
+#: modules/reports/views/all-question-answers.html.php:15 views/takings.php:87
+msgid "IP"
+msgstr "IP"
+
+#: modules/reports/models/stats.php:135
+#: modules/reports/views/all-question-answers.html.php:15
+#: modules/reports/views/all-question-answers.html.php:27
+#: modules/reports/views/history.php:48 views/takings.php:87
+msgid "Date"
+msgstr "Datum"
+
+#: modules/reports/models/stats.php:136
+#: modules/reports/views/all-question-answers.html.php:16
+#: modules/reports/views/all-question-answers.html.php:27
+msgid "Answer"
+msgstr "Antwoord"
+
+#: modules/reports/models/stats.php:137
+#: modules/reports/views/all-question-answers.html.php:20
+#: modules/reports/views/all-question-answers.html.php:31
+msgid "Teacher comments"
+msgstr "Commentaar docent"
+
+#: modules/reports/models/stats.php:138
+#: modules/reports/views/all-question-answers.html.php:23
+#: modules/reports/views/all-question-answers.html.php:34
+msgid "Hints used"
+msgstr "Gebruikte hints"
+
+#: modules/reports/models/stats.php:153 modules/reports/models/stats.php:154
+#: modules/reports/views/all-question-answers.html.php:43
+#: modules/reports/views/all-question-answers.html.php:46 views/takings.php:99
+#: views/takings.php:100 views/takings.php:101
+msgid "N/A"
+msgstr "N/B"
+
+#: modules/reports/models/stats.php:159
+#: modules/reports/views/all-question-answers.html.php:51
+msgid "Yes"
+msgstr "Ja"
+
+#: modules/reports/models/stats.php:159
+#: modules/reports/views/all-question-answers.html.php:51
+msgid "No"
+msgstr "Nee"
+
+#: modules/reports/models/stats.php:162
+#: modules/reports/views/all-question-answers.html.php:56
+msgid "%d hints used:"
+msgstr "%d hints ingezet:"
+
+#: modules/reports/models/stats.php:162
+#: modules/reports/views/all-question-answers.html.php:56
+msgid "No hints used"
+msgstr "Geen hints gebruikt"
+
+#: modules/reports/models/user.php:5
+msgid "%s Reports"
+msgstr "%s rapporten"
+
+#: modules/reports/views/all-question-answers.html.php:3
+msgid "Detailed Question Report"
+msgstr "Gedetailleerd rapport met vragen"
+
+#: modules/reports/views/all-question-answers.html.php:5
+#: modules/reports/views/chart-by-grade.html.php:16
+#: modules/reports/views/per-question.php:7
+msgid "Shortcode to display this page:"
+msgstr "Shortcode om deze pagina weer te geven:"
+
+#: modules/reports/views/all-question-answers.html.php:7
+#: modules/reports/views/chart-by-grade.html.php:5
+msgid "Quiz:"
+msgstr "Toets:"
+
+#: modules/reports/views/all-question-answers.html.php:8
+msgid "Question:"
+msgstr "Vraag:"
+
+#: modules/reports/views/all-question-answers.html.php:9
+msgid "Back to all question stats"
+msgstr "Terug naar vraagstatistiekenoverzicht"
+
+#: modules/reports/views/all-question-answers.html.php:10
+msgid "Export all records (TAB delimited file)"
+msgstr "Exporteer alle records (TAB gelimiteerd)"
+
+#: modules/reports/views/all-question-answers.html.php:15
+#: modules/reports/views/all-question-answers.html.php:27 views/takings.php:27
+#: views/takings.php:87
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: modules/reports/views/chart-by-grade.html.php:3
+msgid "Chart by grades"
+msgstr "Grafiek per cijfer"
+
+#: modules/reports/views/chart-by-grade.html.php:6
+#: modules/reports/views/per-question.php:5
+msgid "Back to the users list"
+msgstr "Terug naar de lijst met gebruikers"
+
+#: modules/reports/views/chart-by-grade.html.php:8
+msgid ""
+"This chart shows what percentage of users achieved each of the results in "
+"this quiz."
+msgstr ""
+"Deze grafiek toont welk percentage van gebruikers welke resultaten in deze "
+"toets heeft behaald."
+
+#: modules/reports/views/chart-by-grade.html.php:24
+msgid "%d%% (%d responses)"
+msgstr "%d%% (%d reacties)"
+
+#: modules/reports/views/history.php:3 modules/reports/views/overview.php:3
+#: modules/reports/views/skills.php:3 modules/reports/views/tests.php:3
+msgid "Overview"
+msgstr "Overzicht"
+
+#: modules/reports/views/history.php:4 modules/reports/views/overview.php:4
+#: modules/reports/views/skills.php:4 modules/reports/views/tests.php:4
+#: views/options.php:75
+msgid "Tests"
+msgstr "Toetsen"
+
+#: modules/reports/views/history.php:5 modules/reports/views/overview.php:5
+#: modules/reports/views/skills.php:5 modules/reports/views/tests.php:5
+msgid "Skills/Categories"
+msgstr "Vaardigheden/Categorieën"
+
+#: modules/reports/views/history.php:6 modules/reports/views/overview.php:6
+#: modules/reports/views/skills.php:6 modules/reports/views/tests.php:6
+#: views/options.php:76
+msgid "History"
+msgstr "Geschiedenis"
+
+#: modules/reports/views/history.php:11
+msgid "Usage summary"
+msgstr "Samenvatting gebruik"
+
+#: modules/reports/views/history.php:16
+msgid "Total quiz sessions:"
+msgstr "Aantal toetssessies:"
+
+#: modules/reports/views/history.php:17
+msgid "Average time spent per session:"
+msgstr "Gemiddelde tijd per sessie:"
+
+#: modules/reports/views/history.php:18
+msgid "Total question answered:"
+msgstr "Aantal beantwoorde vragen:"
+
+#: modules/reports/views/history.php:19
+msgid "Average questions per session:"
+msgstr "Gemiddeld aantal vragen per sessie:"
+
+#: modules/reports/views/history.php:20
+msgid "Average skills per session:"
+msgstr "Gemiddeld aantal vaardigheden per sessie:"
+
+#: modules/reports/views/history.php:25
+msgid "Number of tests attempted over time"
+msgstr "Aantal toetspogingen in de tijd uitgezet"
+
+#: modules/reports/views/history.php:44
+msgid "Usage log"
+msgstr "Gebruikslog"
+
+#: modules/reports/views/history.php:48
+msgid "Session start time"
+msgstr "Starttijd sessie"
+
+#: modules/reports/views/history.php:48
+msgid "Session end time"
+msgstr "Eindtijd sessie"
+
+#: modules/reports/views/history.php:49 modules/reports/views/tests.php:12
+msgid "Time spent"
+msgstr "Bestede tijd"
+
+#: modules/reports/views/history.php:49 modules/reports/views/tests.php:13
+msgid "Problems attempted"
+msgstr "Uitdagingen geprobeerd"
+
+#: modules/reports/views/history.php:50
+msgid "Skills/Question categories"
+msgstr "Vaardigheid-/Vraagcategorieën"
+
+#: modules/reports/views/history.php:56
+msgid "n/a"
+msgstr "n/b"
+
+#: modules/reports/views/history.php:57 modules/reports/views/history.php:58
+msgid "g:i A"
+msgstr "g:i A"
+
+#: modules/reports/views/overview.php:11
+msgid "All time overview"
+msgstr "Totaaloverzicht (tijd)"
+
+#: modules/reports/views/overview.php:16
+msgid "Different tests attempted:"
+msgstr "Aantal verschillende toetsen geprobeerd:"
+
+#: modules/reports/views/overview.php:17
+msgid "Skills practiced (question categories):"
+msgstr "Geoefende vaardigheden (vraagcategorieën):"
+
+#: modules/reports/views/overview.php:18
+msgid "Certificates earned:"
+msgstr "Behaalde certificaten:"
+
+#: modules/reports/views/overview.php:25
+msgid "Tests attempts per category"
+msgstr "Toetspogingen per categorie"
+
+#: modules/reports/views/overview.php:26
+msgid "Multiple attempts per test are also included in the chart."
+msgstr "Meerdere pogingen per toets worden ook in de grafiek opgenomen."
+
+#: modules/reports/views/overview.php:34
+msgid "Questions answered per question category"
+msgstr "Beantwoorde vragen per vraagcategorie"
+
+#: modules/reports/views/per-question.php:15
+msgid "Answer or metric"
+msgstr "Antwoord of meetwaarde"
+
+#: modules/reports/views/per-question.php:15 views/certificate.php:20
+msgid "Value"
+msgstr "Waarde"
+
+#: modules/reports/views/per-question.php:16
+msgid "Number and % correct answers"
+msgstr "Aantal en % goede antwoorden"
+
+#: modules/reports/views/per-question.php:17
+msgid "correct answers from"
+msgstr "juiste antwoorden van"
+
+#: modules/reports/views/per-question.php:18
+msgid "total answers received"
+msgstr "totaal aantal gegeven antwoorden"
+
+#: modules/reports/views/per-question.php:22
+msgid "times selected"
+msgstr "keer geselecteerd"
+
+#: modules/reports/views/per-question.php:26
+msgid "Get full detauls"
+msgstr "Bekijk volledige details"
+
+#: modules/reports/views/skills.php:31
+msgid "Proficiency goal: at least"
+msgstr "Competentiedoel: ten minste"
+
+#: modules/reports/views/skills.php:31
+msgid "% correct answers on the whole quiz"
+msgstr "% juiste antwoorden voor de volledige toets"
+
+#: modules/reports/views/skills.php:33
+msgid "Show Report"
+msgstr "Toon rapportage"
+
+#: modules/reports/views/skills.php:37
+msgid "These reports are based on the latest attempt made for every exam."
+msgstr ""
+"Deze rapportages worden gebaseerd op de meest recente poging voor iedere "
+"toets."
+
+#: modules/reports/views/skills.php:40
+msgid "Proficiency summary"
+msgstr "Samenvatting van competenties"
+
+#: modules/reports/views/skills.php:45
+msgid "Proficiency by skill"
+msgstr "Competentie per vaardigheid"
+
+#: modules/reports/views/skills.php:47
+msgid "Skill (question category) and exams"
+msgstr "Vaardigheid (vraagcategorie) en toetsen"
+
+#: modules/reports/views/skills.php:47
+msgid "Proficiency (% correct answers)"
+msgstr "Competentieniveau (% juiste antwoorden)"
+
+#: modules/reports/views/tests.php:12
+msgid "%s name"
+msgstr "%s naam"
+
+#: modules/reports/views/tests.php:13
+msgid "Score and Grade"
+msgstr "Score en cijfer"
+
+#: modules/reports/views/tests.php:14
+msgid "View Details"
+msgstr "Bekijk details"
+
+#: modules/reports/views/tests.php:22
+msgid "(with %s points)"
+msgstr "(met %s punten)"
+
+#: modules/reports/views/tests.php:23 views/my_exams.php:39
+#: views/takings.php:101 views/users-earned-certificate.html.php:25
+msgid "view"
+msgstr "bekijk"
+
+#: show_exam.php:38
+msgid ""
+"Warning: your unfinished attempt was recorded. You ran out of time and your "
+"answers will be submitted automatically."
+msgstr ""
+"Waarschuwing: wij hebben een incomplete poging opgeslagen. Omdat er geen "
+"tijd meer over is hebben we je antwoorden automatisch opgeslagen."
+
+#: show_exam.php:45
+msgid ""
+"Warning: you have started this test earlier and the timer is running behind "
+"the scene!"
+msgstr ""
+"Let op! Je bent eerder aan deze toets begonnen en de timer loopt op de "
+"achtergrond door!"
+
+#: show_exam.php:58
+msgid "This test will be available between %s and %s."
+msgstr "Deze toets is beschikbaar tussen %s en %s."
+
+#: show_exam.php:59
+msgid "You can still see it only because you are administrator or manager."
+msgstr "Je kunt dit nog steeds bekijken, omdat je beheerder of manager bent."
+
+#: show_exam.php:74
+msgid "Time limit exceeded! We cannot accept your results."
+msgstr ""
+"De maximale tijd is overschreden! We kunnen de resultaten niet accepteren."
+
+#: show_exam.php:137
+msgid "Invalid image validation code"
+msgstr "De tekst uit de afbeelding is niet goed overgenomen"
+
+#: views/advanced-import.html.php:2
+msgid "Advanced Questions Import"
+msgstr "Geavanceerd importeren van vragen"
+
+#: views/advanced-import.html.php:4
+msgid "%s:"
+msgstr "%s:"
+
+#: views/advanced-import.html.php:6
+msgid "Back to manage questions"
+msgstr "Terug naar vragenbeheer"
+
+#: views/advanced-import.html.php:10
+msgid "The questions were imported."
+msgstr "De vragen zijn geimporteerd."
+
+#: views/advanced-import.html.php:10
+msgid "There was an error improting your questions."
+msgstr "Er is een fout opgetreden bij het importeren van vragen."
+
+#: views/advanced-import.html.php:15
+msgid "Import format:"
+msgstr "Importformat:"
+
+#: views/advanced-import.html.php:16 views/advanced-import.html.php:40
+msgid "Simple WatuPRO"
+msgstr "Eenvoudig Watu PRO"
+
+#: views/advanced-import.html.php:17 views/advanced-import.html.php:41
+msgid "Advanced WatuPRO"
+msgstr "Geavanceerd WatuPRO"
+
+#: views/advanced-import.html.php:18 views/advanced-import.html.php:42
+msgid "Aiken (text file)"
+msgstr "Aiken (tekstbestand)"
+
+#: views/advanced-import.html.php:20
+msgid "Upload file:"
+msgstr "Upload bestand:"
+
+#: views/advanced-import.html.php:23 views/questions.php:42
+msgid "Fields Delimiter:"
+msgstr "Scheidingsteken:"
+
+#: views/advanced-import.html.php:24 views/questions.php:43
+msgid "Tab"
+msgstr "Tab"
+
+#: views/advanced-import.html.php:25 views/questions.php:44
+msgid "Semicolon"
+msgstr "Puntkomma"
+
+#: views/advanced-import.html.php:26 views/questions.php:45
+msgid "Comma"
+msgstr "Komma"
+
+#: views/advanced-import.html.php:28 views/questions.php:48
+msgid "Skip title row"
+msgstr "Sla eerste rij (titels) over"
+
+#: views/advanced-import.html.php:29 views/questions.php:50
+msgid "If you have problems importing files with foreign characters, please"
+msgstr "Als er problemen optreden met bijzondere tekens,"
+
+#: views/advanced-import.html.php:29 views/questions.php:50
+msgid "check this checkbox and try again."
+msgstr "vink dan deze checkbox aan en probeer het opnieuw."
+
+#: views/advanced-import.html.php:30
+msgid "Import Questions"
+msgstr "Vragen importeren"
+
+#: views/advanced-import.html.php:35
+msgid "About The Import Formats"
+msgstr "Over de opmaak van een importbestand"
+
+#: views/advanced-import.html.php:37
+msgid ""
+"Please visit the following links to learn about each of the formats, "
+"download samples and see which is the best for you"
+msgstr ""
+"Op de volgende pagina's kun je meer informatie vinden over de gebruikte "
+"bestandsformaten, voorbeelden downloaden en ontdekken welke het beste "
+"geschikt is voor jouw situatie."
+
+#: views/advanced-import.html.php:40
+msgid "- simple CSV format with only a few important fields"
+msgstr "- eenvoudig CSV formaat met slechts enkele belangrijke velden"
+
+#: views/advanced-import.html.php:41
+msgid "- CSV format including all DB fields"
+msgstr "- CSV formaat met alle velden uit de database"
+
+#: views/advanced-import.html.php:42
+msgid "The Aiken format"
+msgstr "Het Aiken formaat"
+
+#: views/cat.php:2 views/certificate.php:2
+msgid "Create New"
+msgstr "Maak nieuw"
+
+#: views/cat.php:2 views/cats.php:9 views/cats.php:14 views/certificate.php:2
+#: views/certificates.php:12 views/certificates.php:20 views/exams.php:61
+#: views/questions.php:133
+msgid "Edit"
+msgstr "Bewerk"
+
+#: views/cat.php:6 views/cats.php:9
+msgid "Category Name"
+msgstr "Naam categorie"
+
+#: views/cat.php:14
+msgid "Accessible For:"
+msgstr "Toegankelijk voor:"
+
+#: views/cat.php:15
+msgid "(Wordpress User Roles)"
+msgstr "(Wordpress gebruikersrollen)"
+
+#: views/cat.php:16
+msgid "(Watupro User Groups)"
+msgstr "(Watupro gebruikersgroepen)"
+
+#: views/cat.php:20 views/cat.php:29
+msgid "- All Users -"
+msgstr "- Alle gebruikers -"
+
+#: views/cat.php:38
+msgid ""
+"Please note this restriction here is valid only for a specific exam category."
+msgstr ""
+"Let erop dat deze beperking alleen geldig is voor de specifieke "
+"toetscategorie."
+
+#: views/cat.php:41
+msgid "Save Category"
+msgstr "Categorie bewaren"
+
+#: views/cat.php:43
+msgid "Delete Category"
+msgstr "Categorie verwijderen"
+
+#: views/cat.php:56
+msgid "Please enter title of this category"
+msgstr "Voer de titel van de categorie in"
+
+#: views/cats.php:2
+msgid "Watu PRO Exam Categories"
+msgstr "Watu PRO Toetscategorieën"
+
+#: views/cats.php:4
+msgid ""
+"Categories can be used to organize your exams by topic. The most useful part "
+"of this is that you can limit the access to categories for the different"
+msgstr ""
+"Categorieën worden gebruikt om de toetsen in te delen in onderwerpen. Het "
+"meest nuttige aspect aan categorieën is dat je de toegang tot een categorie "
+"kunt beperken tot bepaalde"
+
+#: views/cats.php:4
+msgid "user groups"
+msgstr "gebruikersgroepen"
+
+#: views/cats.php:8
+msgid "Click here to add new category"
+msgstr "Maak een nieuwe categorie..."
+
+#: views/cats.php:9
+msgid "Shortcode for exams list"
+msgstr "Shortcode voor de lijst met toetsen"
+
+#: views/cats.php:18
+msgid "You have not created any categories yet."
+msgstr "Er zijn nog geen categorieën gemaakt."
+
+#: views/cats.php:18 views/certificates.php:25
+msgid "Click here"
+msgstr "Klik hier"
+
+#: views/cats.php:18 views/certificates.php:25
+msgid "to create one."
+msgstr "om er een te maken."
+
+#: views/cats.php:21
+msgid "Shortcodes to list published %s"
+msgstr "Shortcodes om gepubliceerde %s weer te geven."
+
+#: views/cats.php:23
+msgid "To list all published %s in the system you can use the shortcode"
+msgstr ""
+"Om alle gepubliceerde %s uit het systeem weer te geven kun je de volgende "
+"shortcode gebruiken"
+
+#: views/cats.php:24
+msgid "To list all published uncategorized %s you can use the shortcode"
+msgstr ""
+"Om alle gepubliceerde maar niet-gecategoriseerde %s te publiceren kun je de "
+"volgende shortcode gebruiken"
+
+#: views/cats.php:25
+msgid ""
+"To list %s from only one category use the shortcodes given in the table "
+"above."
+msgstr ""
+"Om %s van één individuele categorie weer te geven kun je de shortcodes uit "
+"de bovenstaande tabel gebruiken"
+
+#: views/cats.php:26
+msgid ""
+"To list %s from multiple categories with one shortcode just separate their "
+"IDs with commas, like this:"
+msgstr ""
+"Om %s van verschillende categorieën weer te geven met slechts één shortcode "
+"scheid je hun ID's met komma's, zoals hier:"
+
+#: views/cats.php:27
+msgid ""
+"You can use the same logic to limit the %s shown in user dashboard. Just add "
+"category ID(s) to the shortcode like this:"
+msgstr ""
+"Met dezelfde logica kun je ook de in het gebruikersdashboard weergegeven %s "
+"beperken. Voeg daartoe de categorie-ID('s) toe aan de shortcode zoals hier:"
+
+#: views/cats.php:27
+msgid ""
+"To sort them by title, or latest on top, add \"title\" or \"latest\" to the "
+"shortcode like this:"
+msgstr ""
+"Voeg \"title\" or \"latest\" toe aan de shortcode om ze te sorteren op "
+"title, of meest recente bovenaan. Voorbeeld:"
+
+#: views/cats.php:28
+msgid ""
+"These shortcodes also accept third argumen that allows you to specify the "
+"order of listing %s:"
+msgstr ""
+"Shortcodes ondersteunen ook een derde parameter waarmee de volgorde van de "
+"%s in de lijst kan worden bepaald."
+
+#: views/cats.php:31
+msgid "to order them by title, alphabetically. Example:"
+msgstr "om ze te sorteren op titel en op alfabet. Voorbeeld:"
+
+#: views/cats.php:32
+msgid "to order the most recent on top. Example:"
+msgstr "om de meeste recente bovenaan te plaatsen. Voorbeeld:"
+
+#: views/cats.php:35
+msgid ""
+"By default all shortcodes list the %s sorted in the order of creation, "
+"oldest on top."
+msgstr ""
+"Standaard wordt de lijst met %s gesorteerd op volgorde van aanmaakdatum, "
+"waarbij de oudste bovenaan staat."
+
+#: views/certificate.php:2
+msgid "Certificate"
+msgstr "Certificaat"
+
+#: views/certificate.php:6 views/certificates.php:12
+msgid "Certificate Title"
+msgstr "Certificaattitel"
+
+#: views/certificate.php:14
+msgid "Certificate Text/HTML"
+msgstr "Certificaat: Tekst/HTML"
+
+#: views/certificate.php:18
+msgid "Usable Variables..."
+msgstr "Beschikbare variabelen..."
+
+#: views/certificate.php:20 views/usable-variables.php:3
+msgid "Variable"
+msgstr "Variabele"
+
+#: views/certificate.php:21
+msgid "Full user name, if provided, otherwise login will be used"
+msgstr ""
+"Volledige naam van de gebruiker, indien beschikbaar, anders wordt de "
+"gebruikersnaam toegepast."
+
+#: views/certificate.php:22 views/usable-variables.php:6
+msgid "Total points collected"
+msgstr "Totaal aantal behaalde punten"
+
+#: views/certificate.php:23
+msgid ""
+"The assigned grade after taking the exam. Or use %%GTITLE%% and %%GDESC%% to "
+"separate the grade title from the description."
+msgstr ""
+"Het toegekende cijfer na het afleggen van de toets. Of gebruik %%GTITLE%% en "
+"%%GDESC%% als je de titel en omschrijving van het cijfer wilt splitsen."
+
+#: views/certificate.php:24
+msgid "The name of the exam"
+msgstr "De naam van de toets."
+
+#: views/certificate.php:25
+msgid "The optional description."
+msgstr "De omschrijving (indien beschikbaar)."
+
+#: views/certificate.php:26
+msgid "Date when exam is submitted."
+msgstr "Datum waarop de toets is afgerond."
+
+#: views/certificate.php:30
+msgid "Important!"
+msgstr "Belangrijk!"
+
+#: views/certificate.php:32
+msgid ""
+"The certificate will be available only for logged in users, and when it's "
+"assigned to the grade they have achieved."
+msgstr ""
+"Het certificaat is alleen beschikbaar voor ingelogde gebruikers en indien "
+"het is toegewezen aan het cijfer dat men heeft behaald."
+
+#: views/certificate.php:33
+msgid ""
+"No CSS styles or header from your blog will be applied. Please include all "
+"the styling in the certificate."
+msgstr ""
+"De CSS stijlen of paginakoppen van je website worden niet gebruikt. Alle "
+"styling moet in het certificaat zijn opgenomen."
+
+#: views/certificate.php:37
+msgid "Admin approval"
+msgstr "Goedkeuring door beheerder"
+
+#: views/certificate.php:38
+msgid ""
+"By default the certificate is issued automatically when a grade assigned to "
+"it is achieved by the user. Here you can optionalliy configure admin "
+"approval."
+msgstr ""
+"Standaard wordt het certificaat automatisch uitgegeven indien de gebruiker "
+"voldoende punten heeft behaald. Hier kun je instellen als je eerst nog "
+"toestemming door de beheerder wilt laten geven."
+
+#: views/certificate.php:40
+msgid "This certificate requires admin approval"
+msgstr "Dit certificaat moet eerst worden geaccordeerd door een beheerder."
+
+#: views/certificate.php:43
+msgid "Notify me when a certificate approval requires my attention."
+msgstr ""
+"Informeer mij als er een certificaat klaar staat voor het geven van een "
+"akkoord."
+
+#: views/certificate.php:45
+msgid ""
+"Notify the user when I approve their certificate.(You can configure the "
+"email contents.)"
+msgstr ""
+"Stuur een melding naar de gebruiker zodra het certificaat is geaccordeerd "
+"(je kunt de inhoud van de mail beheren)."
+
+#: views/certificate.php:48
+msgid "Email subject:"
+msgstr "Onderwerpregel email:"
+
+#: views/certificate.php:49
+msgid "Email message:"
+msgstr "Emailbericht:"
+
+#: views/certificate.php:50
+msgid "You can use the following variables:"
+msgstr "De volgende variabelen kunnen worden gebruikt"
+
+#: views/certificate.php:50
+msgid "for quiz name"
+msgstr "voor de naam van de toets"
+
+#: views/certificate.php:50
+msgid "for certificate name"
+msgstr "voor de naam van het certificaat"
+
+#: views/certificate.php:51
+msgid "for the date when the exam was submitted, and"
+msgstr "voor de datum waarop de toets werd ingediend en"
+
+#: views/certificate.php:52
+msgid "for the URL where the user can view/print their certificate."
+msgstr ""
+"voor de link naar de pagina waarop de gebruiker zijn/haar certificaat kan "
+"bekijken en printen."
+
+#: views/certificate.php:58
+msgid "Save Certificate"
+msgstr "Bewaar certificaat"
+
+#: views/certificate.php:73
+msgid "Please enter title of this certificate"
+msgstr "Voer de titel van dit certificaat in"
+
+#: views/certificates.php:4
+msgid ""
+"These certificates are optional and can be assigned to grades. Then when "
+"<b>logged in</b> user takes an exam and receives a grade which has assigned "
+"certificate, they will see a link to print this certificate, optionally "
+"personalized with their details."
+msgstr ""
+"Deze certificaten zijn optioneel en kunnen worden toegewezen aan bepaalde "
+"cijfers. Als een <b>ingelogde</b> gebruiker vervolgens een toets aflegt en "
+"een cijfer behaalt waaraan een certificaat is gekoppeld, dan krijgen zij een "
+"link naar het certificaat te zien, eventueel voorzien van hun persoonlijke "
+"gegevens."
+
+#: views/certificates.php:6
+msgid ""
+"Need help designing the certificates? Here are some <a href=\"http://blog."
+"calendarscripts.info/free-certificate-templates-for-watupro/\" target="
+"\"_blank\">free templates</a> made for you by our designer. If you need more "
+"individual design we can discuss it."
+msgstr ""
+"Hulp nodig bij het ontwerpen van certificaten? Op deze pagina staan <a href="
+"\"http://blog.calendarscripts.info/free-certificate-templates-for-watupro/\" "
+"target=\"_blank\">gratis voorbeelden</a> van onze designer. Voor een "
+"gepersonaliseerd design kan contact worden opgenomen."
+
+#: views/certificates.php:11
+msgid "Click here to add new certificate"
+msgstr "Nieuw certificaat toevoegen..."
+
+#: views/certificates.php:12
+msgid "Users earned"
+msgstr "Gebruikers verdiend"
+
+#: views/certificates.php:19
+msgid "View/Manage"
+msgstr "Bekijk/beheer"
+
+#: views/certificates.php:25
+msgid "You have not created any certificates yet."
+msgstr "Er zijn nog geen certificaten gemaakt."
+
+#: views/certificates.php:29
+msgid ""
+"Generate PDF Certificates instead of HTML based ones. (You need a DocRaptor "
+"account or the free pdf-bridge plugin for this)"
+msgstr ""
+"Creëer PDF certificaten in plaats van HTML bestanden. (Je moet een DocRaptor "
+"account hebben, of de gratis pdf-bridge plugin)"
+
+#: views/certificates.php:29
+msgid "Save these settings"
+msgstr "Bewaar deze instellingen"
+
+#: views/certificates.php:32
+msgid ""
+"Use the free <a href=\"%s\" target=\"_blank\">pdf bridge</a> plugin (must be "
+"installed and activated)."
+msgstr ""
+"Gebruik de gratis <a href=\"%s\" target=\"_blank\">pdf bridge</a> plugin "
+"(moet geïnstalleerd en geactiveerd zijn)."
+
+#: views/certificates.php:34
+msgid "Use DocRaptor."
+msgstr "Gebruik DocRaptor."
+
+#: views/certificates.php:37
+msgid "Your DocRaptor API Key:"
+msgstr "DocRaptor API sleutel (Key):"
+
+#: views/certificates.php:37
+msgid ""
+"(The key has been saved. It's never shown here for security reasons! Enter "
+"something only if you want to add it or change it.)"
+msgstr ""
+"(De sleutel is opgeslagen. Uit veiligheidsoverwegingen wordt deze hier niet "
+"verder getoond! Voer alleen iets in als je iets wilt toevoegen of wijzigen)"
+
+#: views/certificates.php:38
+msgid "DocRaptor Mode:"
+msgstr "DocRaptor Mode:"
+
+#: views/certificates.php:39
+msgid "Test"
+msgstr "Test"
+
+#: views/certificates.php:40
+msgid "Production"
+msgstr "Productie"
+
+#: views/certificates.php:42
+msgid ""
+"Note: to avoid wasting your document limit with DocRaptor each certificate "
+"is generated only once for each user. This means that if you make changes to "
+"the certificate will be applied only if the user is issued the certificate "
+"again. This can happen if they re-take the quiz or if they take another quiz "
+"that issues the same certificate."
+msgstr ""
+"Noot: om te voorkomen dat je documentenlimit bij DocRaptor wordt "
+"overschreven wordt ieder certificaat slechts één maal gegenereerd voor een "
+"gebruiker. Als je wijzigingen doorvoert in het certificaat zal dit derhalve "
+"alleen zichtbaar zijn bij nieuwe gebruikers of gebruikers die het "
+"certificaat opnieuw behalen. Dit kan gebeuren als men de toets opnieuw "
+"aflegt of als men een andere toets aflegt die hetzelfde certificaat oplevert."
+
+#: views/copy-exam-form.html.php:2
+msgid "Copy exam \"%s\""
+msgstr "Kopieer toets \"%s\""
+
+#: views/copy-exam-form.html.php:4
+msgid "Edit exam"
+msgstr "Wijzig toets"
+
+#: views/copy-exam-form.html.php:5
+msgid "Manage questions"
+msgstr "Beheer vragen"
+
+#: views/copy-exam-form.html.php:10
+msgid ""
+"This will copy the entire exam along with its grades and questions into "
+"another exam."
+msgstr ""
+"Dit maakt een kopie van de gehele toets, samen met de cijfers en vragen, in "
+"een andere toets."
+
+#: views/copy-exam-form.html.php:12
+msgid ""
+"Copy into a new exam. The exam will have the same name with '(Copy)' at the "
+"end. You can edit the exam, change its name, remove questions etc, just like "
+"with every other exam that you create."
+msgstr ""
+"Kopieer naar een nieuwe toets. De toets zal dezelfde naam krijgen met "
+"'(Copy)' aan het einde toegevoegd. Je kunt de toets daarna bewerken, de naam "
+"wijzigen, vragen verwijderen etc, net als met iedere andere toets die je "
+"maakt."
+
+#: views/copy-exam-form.html.php:15
+msgid ""
+"Copy into existing exam. Selecting this will result in copying only the "
+"questions and grades."
+msgstr ""
+"Kopieer naar een bestaande toets. Bij deze optie worden alleen de vragen en "
+"cijfers gekopieerd."
+
+#: views/copy-exam-form.html.php:17
+msgid "Select existing exam to copy questions to:"
+msgstr "Selecteer de toets waarin de vragen moeten worden gekopieerd:"
+
+#: views/copy-exam-form.html.php:24
+msgid "Select which questions and grades to copy"
+msgstr "Selecteer de vragen en punten die moeten worden gekopieerd"
+
+#: views/copy-exam-form.html.php:27
+msgid "Questions:"
+msgstr "Vragen:"
+
+#: views/copy-exam-form.html.php:29
+msgid "Category '%s'"
+msgstr "Categorie '%s'"
+
+#: views/copy-exam-form.html.php:36
+msgid "Grades:"
+msgstr "Cijfers:"
+
+#: views/copy-exam-form.html.php:42
+msgid "OK, Copy This Exam"
+msgstr "OK, kopieer deze toets"
+
+#: views/copy-exam-form.html.php:43
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: views/edit-choice.html.php:4
+msgid "Back to edit the whole question"
+msgstr "Terug naar het bewerken van de vraag"
+
+#: views/edit-choice.html.php:6
+msgid ""
+"This page allows you to use the rich text editor and easily add images and "
+"media to the possible answers to each question. Points and other properties "
+"of the answer itself can be edited on the \"edit question\" page."
+msgstr ""
+"Deze pagina geeft de mogelijkheid om de editor met opmaak te gebruiken, "
+"zodat eenvoudig afbeeldingen en andere media kan worden ingevoegd in de "
+"vragen. Punten en andere eigenschappen van de antwoorden kunnen worden "
+"bewerkt op de \"bewerk vraag\" pagina."
+
+#: views/edit-choice.html.php:8
+msgid "Remind me the question"
+msgstr "Herinner me aan de vraag"
+
+#: views/edit-choice.html.php:16
+msgid "Save answer contents"
+msgstr "Bewaar de inhoud van het antwoord"
+
+#: views/exam_form.php:6
+msgid "Back to Quizzes List"
+msgstr "Terug naar het toetsoverzicht"
+
+#: views/exam_form.php:7 views/questions.php:16
+msgid "Copy into another quiz"
+msgstr "Kopieer naar een andere toets"
+
+#: views/exam_form.php:16
+msgid "Quiz Name"
+msgstr "Naam van de toets"
+
+#: views/exam_form.php:22
+msgid "Optional description"
+msgstr "Eventuele beschrijving"
+
+#: views/exam_form.php:27
+msgid ""
+"If provided, the description will be shown when starting the quiz. It can "
+"also be used in certificates. You can use the <a href=\"%s\" target=\"_blank"
+"\">{{{button}}}</a> tag to make the quiz start with a start button."
+msgstr ""
+"Indien deze omschrijving wordt opgegeven, dan zal dit worden getoond bij het "
+"starten van de toets. Daarnaast kan het worden opgenomen in certificaten.  "
+"Gebruik de <a href=\"%s\" target=\"_blank\">{{{button}}}</a> tag om de toets "
+"met een knop te laten beginnen."
+
+#: views/exam_form.php:28
+msgid ""
+"You can also require name and email fields in this area by using <a href=\"%s"
+"\" target=\"_blank\">these codes</a>."
+msgstr ""
+"Je kunt ook de naam- en emailvelden verplicht stellen door <a href=\"%s\" "
+"target=\"_blank\">deze codes</a> te gebruiken."
+
+#: views/exam_form.php:33
+msgid "Quiz Settings"
+msgstr "Toetsinstellingen"
+
+#: views/exam_form.php:37
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: views/exam_form.php:38
+msgid "Randomization:"
+msgstr "Willekeurige rangschikking:"
+
+#: views/exam_form.php:39
+msgid "Display questions and answers in the way I entered them"
+msgstr "Toon de vragen en antwoorden in de volgorde waarin ik ze heb opgegeven"
+
+#: views/exam_form.php:40
+msgid "Randomize questions and answers"
+msgstr "Geef vragen en antwoorden in willekeurige volgorde weer"
+
+#: views/exam_form.php:41
+msgid "Randomize questions but NOT answers"
+msgstr "Geef vragen in willekeurige volgorde weer, maar NIET de antwoorden"
+
+#: views/exam_form.php:42
+msgid "Randomize answers but NOT questions"
+msgstr "Geef antwoorden in willekeurige volgorde weer, maar NIET de vragen"
+
+#: views/exam_form.php:44
+msgid ""
+"Show questions grouped by category (useful if you have categorized your "
+"questions)"
+msgstr ""
+"Toon vragen gegroepeerd per categorie (nuttig als de vragen gecategoriseerd "
+"zijn)"
+
+#: views/exam_form.php:45
+msgid "Pagination:"
+msgstr "Paginering:"
+
+#: views/exam_form.php:46
+msgid "All questions on single page"
+msgstr "Alle vragen op één lange pagina"
+
+#: views/exam_form.php:47
+msgid "One page per question category"
+msgstr "Een pagina per vraagcategorie"
+
+#: views/exam_form.php:48
+msgid "Each question on its own page"
+msgstr "Elke vraag op zijn eigen pagina"
+
+#: views/exam_form.php:53
+msgid "Show numbered pagination"
+msgstr "Toon genummerde pagina's"
+
+#: views/exam_form.php:55
+msgid "Disallow previous button"
+msgstr "Sta niet toe dat de 'back' knop wordt gebruikt"
+
+#: views/exam_form.php:56
+msgid "Answer to each question can be seen immediately by pressing a button"
+msgstr ""
+"Het antwoord op iedere vraag kan direct worden getoond door op een knop te "
+"klikken"
+
+#: views/exam_form.php:58
+msgid "Show submit button on each page"
+msgstr "Toon de 'insturen' knop op iedere pagina"
+
+#: views/exam_form.php:61
+msgid "Enable save button to allow users continue their quiz later."
+msgstr ""
+"Schakel de 'opslaan' knop in, zodat gebruikers op een later moment verder "
+"kunnen met hun toets."
+
+#: views/exam_form.php:65
+msgid "Require image validation (reCaptcha) to submit this exam"
+msgstr ""
+"Vereis het overnemen van woorden uit een afbeelding (reCaptcha) voordat de "
+"toets kan worden ingezonden"
+
+#: views/exam_form.php:68
+msgid "Set time limit of"
+msgstr "Beperkt de beschikbare tijd tot"
+
+#: views/exam_form.php:68
+msgid "minutes (Leave it blank or enter 0 to not set any time limit.)"
+msgstr "minuten (laat dit veld leeg, of vul 0 in voor onbeperkte tijd)"
+
+#: views/exam_form.php:69
+msgid "Pull"
+msgstr "Selecteer"
+
+#: views/exam_form.php:69
+msgid "random questions"
+msgstr "willekeurige vragen"
+
+#: views/exam_form.php:70
+msgid "per category"
+msgstr "per categorie"
+
+#: views/exam_form.php:71
+msgid ""
+"each time when showing the exam (Leave it blank or enter 0 to show all "
+"questions)"
+msgstr ""
+"per keer dat de toets wordt weergegeven (laat dit leeg, of vul 0 in om alle "
+"vragen altijd te stellen)"
+
+#: views/exam_form.php:73
+msgid "Show max"
+msgstr "Toon maximaal"
+
+#: views/exam_form.php:73
+msgid ""
+"random answers to each question. Leave blank or enter 0 to show all answers "
+"(default). The correct answer will always be shown."
+msgstr ""
+"willekeurige antwoorden op iedere vraag. (Laat dit leeg of vul 0 in om alle "
+"antwoorden te tonen (standaard)). Het juiste antwoord zal altijd worden "
+"weergegeven."
+
+#: views/exam_form.php:75
+msgid "Calculate grades by % correct answers instead of points collected"
+msgstr ""
+"Bereken het cijfer op basis van het % juiste antwoorden, in plaats van de "
+"verzamelde punten"
+
+#: views/exam_form.php:77
+msgid "Allow up to"
+msgstr "Sta maximaal"
+
+#: views/exam_form.php:77
+msgid "submissions by IP address. (Enter 0 for unlimited submissions)"
+msgstr "inzendingen per IP adres toe. (Voer 0 in voor onbeperkte inzendingen)"
+
+#: views/exam_form.php:80
+msgid "User and Email Related Settings"
+msgstr "Instellingen voor gebruikers en emails"
+
+#: views/exam_form.php:81
+msgid "Require user log-in"
+msgstr "Vereis inloggen"
+
+#: views/exam_form.php:84
+msgid "Logged user options"
+msgstr "Opties voor ingelogde gebruikers"
+
+#: views/exam_form.php:85
+msgid ""
+"Registered users from the <a href=\"users.php?role=student\">students "
+"database</a> will be able to take this exam. You can add students yourself "
+"or let them register themselves. For the second option you need to make sure "
+"sure that \"Anyone can register\" is checked in your <a href=\"options-"
+"general.php\" target=\"_blank\">general settings</a> page."
+msgstr ""
+"Geregistreerde gebruikers uit de <a href=\"users.php?role=student\">lijst "
+"met studenten</a> kunnen deze toets afleggen. Je kunt zelf studenten "
+"toevoegen, of hen in staat stellen zelf te registreren. Indien zelfstandige "
+"registratie gewenst is, dan moet \"Iedereen kan registreren\" aangekruist "
+"zijn in de <a href=\"options-general.php\" target=\"_blank\">algemene "
+"Wordpress instellingen</a>."
+
+#: views/exam_form.php:87
+msgid "Allow users to submit the exam multiple times:"
+msgstr "Sta toe dat gebruikers een toets meerdere keren insturen:"
+
+#: views/exam_form.php:89
+msgid "Allow"
+msgstr "Sta"
+
+#: views/exam_form.php:89
+msgid "times (For unlimited times enter 0)"
+msgstr "pogingen toe (Geef 0 op om geen limiet in te stellen)"
+
+#: views/exam_form.php:91
+msgid "but require an interval of at least"
+msgstr "maar vereis een tussenpose van ten minste"
+
+#: views/exam_form.php:91
+msgid "hours befor the exam can be resubmitted."
+msgstr "uur voordat de toets opnieuw kan worden gemaakt."
+
+#: views/exam_form.php:93
+msgid ""
+"Once you create grades, you will be able to further restrict re-submitting "
+"the exam."
+msgstr ""
+"Zodra cijfers zijn ingesteld is het mogelijk om verdere restricties op te "
+"leggen voor het herhaald doen van een poging per toets."
+
+#: views/exam_form.php:95
+msgid ""
+"Re-submitting is allowed only if some of the following grades is last "
+"achieved (leave all unchecked to not set any grade-related limitation):"
+msgstr ""
+"Een nieuwe poging is alleen toegestaan als de laatste poging een van de "
+"volgende cijfers heeft opgeleverd (laat alle opties uitgeschakeld om geen "
+"verdere beperkingen op te leggen):"
+
+#: views/exam_form.php:105
+msgid "Send me email with details when someone takes the exam"
+msgstr "Stuur mij een bericht met details als iemand een toets aflegt."
+
+#: views/exam_form.php:106
+msgid "Email address(es) to send to:"
+msgstr "Emailadres(sen) waar dit naar moet worden verzonden:"
+
+#: views/exam_form.php:109
+msgid "Send email to the user with their results"
+msgstr "Stuur de gebruiker een email met hun resultaten"
+
+#: views/exam_form.php:113
+msgid "Exam Category (Optional)"
+msgstr "Toetscategorie (optioneel)"
+
+#: views/exam_form.php:115
+msgid "Select category:"
+msgstr "Selecteer categorie:"
+
+#: views/exam_form.php:116
+msgid "- Uncategorized -"
+msgstr "- Niet-gecategoriseerd -"
+
+#: views/exam_form.php:123
+msgid "Schedule exam (Optional)"
+msgstr "Stel deze toets een beperkte tijd beschikbaar (optioneel)"
+
+#: views/exam_form.php:128
+msgid "Schedule from:"
+msgstr "Beschikbaar vanaf:"
+
+#: views/exam_form.php:151
+msgid "Schedule to:"
+msgstr "tot:"
+
+#: views/exam_form.php:179
+msgid "Final Screen"
+msgstr "Eindvenster"
+
+#: views/exam_form.php:182
+msgid "Enable individual shareable URL for the final screen."
+msgstr ""
+"Schakel een individueel deelbare link voor het eindscherm in (voor "
+"publicatie op bijvoorbeeld sociale media)."
+
+#: views/exam_form.php:184
+msgid "You can use the variable"
+msgstr "Je kunt de variabele"
+
+#: views/exam_form.php:184
+msgid "to display a link to the shareable URL in the final screen itself."
+msgstr "gebruiken om de link zelf op te nemen in het eindscherm."
+
+#: views/exam_form.php:185
+msgid ""
+"Automatically redirect the user to the shareable final screen url when they "
+"complete the exam. (<a href=\"%s\" target=\"_blank\">why?</a>)"
+msgstr ""
+"Verwijs de gebruikers automatisch door naar de publiek deelbare link zodra "
+"ze klaar zijn. (<a href=\"%s\" target=\"_blank\">waarom? (Engels)</a>)"
+
+#: views/exam_form.php:190
+msgid "Use different output for the email that is sent to the user/admin"
+msgstr "Stel afwijkende inhoud in voor de email naar gebruiker/beheerder."
+
+#: views/exam_form.php:194
+msgid ""
+"By default this content is used for both the email sent to user, and the "
+"email sent to admin. You can however use the %s tag to make the email "
+"contents different. The content before the %s tag will be sent to the user "
+"(if the corresponding checkbox is checked) and the content after the %s tag "
+"- to the admin."
+msgstr ""
+"Standaard wordt deze inhoud voor zowel de email naar de gebruiker als naar "
+"de beheerder gebruikt. Het is echter ook mogelijk om de %s tag te gebruiken "
+"voor verschillende inhoud. Alle tekst die voor de %s tag staat wordt naar de "
+"gebruiker verzonden, alle tekst na de tag gaat naar de beheerder (indien de "
+"checkbox is aangehinkt)."
+
+#: views/exams.php:2
+msgid "Manage Quizzes"
+msgstr "Beheer toetsen"
+
+#: views/exams.php:6 views/options.php:4
+msgid "Go to"
+msgstr "Ga naar"
+
+#: views/exams.php:6 views/options.php:2
+msgid "Watu PRO Settings"
+msgstr "Watu PRO Instellingen"
+
+#: views/exams.php:8
+msgid "Create New Quiz"
+msgstr "Maak nieuwe toets aan"
+
+#: views/exams.php:12
+msgid "Filter by category:"
+msgstr "Filter op categorie:"
+
+#: views/exams.php:13
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: views/exams.php:20
+msgid "title contains:"
+msgstr "titel bevat:"
+
+#: views/exams.php:21
+msgid "Filter quizzes"
+msgstr "Filter toetsen"
+
+#: views/exams.php:23
+msgid "Clear filters"
+msgstr "Wis filters"
+
+#: views/exams.php:29
+msgid "ID"
+msgstr "ID"
+
+#: views/exams.php:30
+msgid "Title"
+msgstr "Titel"
+
+#: views/exams.php:31
+msgid "Embed Code"
+msgstr "Embed Code"
+
+#: views/exams.php:32
+msgid "Number Of Questions"
+msgstr "Aantal vragen"
+
+#: views/exams.php:33
+msgid "Created on"
+msgstr "Gemaakt op"
+
+#: views/exams.php:35
+msgid "Taken"
+msgstr "Afgenomen"
+
+#: views/exams.php:38
+msgid "Edit/Delete"
+msgstr "Wijzig/Verwijder"
+
+#: views/exams.php:54
+msgid "Reuses from other test(s)"
+msgstr "Hergebruik van andere toets(en)"
+
+#: views/exams.php:56
+msgid "By %s"
+msgstr "door %s"
+
+#: views/exams.php:56
+msgid "admin"
+msgstr "beheer"
+
+#: views/exams.php:59
+msgid "Questions"
+msgstr "Vragen"
+
+#: views/exams.php:60
+msgid "Grades"
+msgstr "Cijfers"
+
+#: views/exams.php:62
+msgid ""
+"You are about to delete this quiz? This will delete all the questions and "
+"answers within this quiz. Press 'OK' to delete and 'Cancel' to stop."
+msgstr ""
+"Je staat op het punt de toets te verwijderen. Hiermee worden alle vragen en "
+"antwoorden verwijderd! Druk op 'OK' om te verwijderen of op 'Cancel' om te "
+"stoppen."
+
+#: views/exams.php:65
+msgid ""
+"To publish any of the existing tests simply copy the \"Embed code\" shown in "
+"the table above and paste it in a post or page of your blog. Please do not "
+"paste more than one of these shortcodes in a single post or page."
+msgstr ""
+"Om een toets op te nemen in een pagina kopieer je de \"Embed code\" uit de "
+"tabel en plak je dat in een Bericht of Pagina van het blog. Gebruik maximaal "
+"één shortcode per bericht of pagina."
+
+#: views/exams.php:68
+msgid "No tests found."
+msgstr "Geen toetsen gevonden"
+
+#: views/exams.php:74 views/show_exam.php:74
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: views/exams.php:76 views/show_exam.php:74
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: views/grades.php:2
+msgid "Manage Grades in %s"
+msgstr "Beheer cijfers in %s"
+
+#: views/grades.php:4
+msgid "Back to Exams List"
+msgstr "Terug naar toetsoverzicht"
+
+#: views/grades.php:5
+msgid "Edit Exam"
+msgstr "Wijzig toets"
+
+#: views/grades.php:11
+msgid "Manage grades for"
+msgstr "Beheer scores voor"
+
+#: views/grades.php:12
+msgid "- The Whole Exam -"
+msgstr "- De gehele toets -"
+
+#: views/grades.php:14
+msgid "Category:"
+msgstr "Categorie:"
+
+#: views/grades.php:19 views/grades.php:21
+msgid "Design the common category grade output for this quiz"
+msgstr ""
+"Bepaal de standaardopmaak voor de uitslag van deze cijfercategorie in deze "
+"quiz."
+
+#: views/grades.php:22
+msgid ""
+"Note: you are currently managing category-specific grades. These can be "
+"displayed at the final screen using the %%CATGRADES%% variable. All of them "
+"will be shown in loop at the place of the variable. In the box below you can "
+"design how each of the category grades will look."
+msgstr ""
+"Noot: je wijzigt nu categorie-specifieke cijfers. Deze kunnen op het "
+"eindscherm worden weergegeven met behulp van de %%CATGRADES%% variabele. "
+"Ieder cijfer zal worden getoond op de plaats waar de variabele wordt "
+"ingevoegd. In het onderstaande veld kun je vaststellen hoe de cijfers moeten "
+"worden weergegeven."
+
+#: views/grades.php:23
+msgid "This design is the same for all question categories in this exam."
+msgstr "De vormgeving is voor alle vraagcategorieën in deze toets hetzelfde."
+
+#: views/grades.php:28
+msgid ""
+"You can use several of the already known variables: <strong>%%CORRECT%%, %"
+"%TOTAL%%, %%POINTS%%, %%PERCENTAGE%%, %%GTITLE%%, %%GDESC%%</strong>, and "
+"the new variable <strong>%%CATEGORY%%</strong> that will be replaced by the "
+"category name"
+msgstr ""
+"Je kunt enkele reeds bekende variabelen gebruiken: <strong>%%CORRECT%%, %"
+"%TOTAL%%, %%POINTS%%, %%PERCENTAGE%%, %%GTITLE%%, %%GDESC%%</strong>, of de "
+"nieuwe variabele <strong>%%CATEGORY%%</strong> dat zal worden vervangen door "
+"de naam van de categorie."
+
+#: views/grades.php:30
+msgid "Save the Design"
+msgstr "Bewaar deze vormgeving"
+
+#: views/grades.php:35
+msgid ""
+"If you create <a href=\"admin.php?page=watupro_question_cats\">question "
+"categories</a> you will be able to create category-based grades as well."
+msgstr ""
+"Als je <a href=\"admin.php?page=watupro_question_cats\">vraagcategorieën</a> "
+"maakt kun je ook categorie-specifieke cijfers instellen."
+
+#: views/grades.php:41
+msgid "Add New Grade"
+msgstr "Voeg nieuw cijfer toe"
+
+#: views/grades.php:43
+msgid ""
+"Feel free to enter valid URL instead of grade title - I'll redirect to it "
+"instead of showing the final screen!"
+msgstr ""
+"Gebruik eventueel een geldige URL in plaats van de titel van een cijfer - "
+"dan zal de gebruiker naar die URL worden doorverwezen in plaats van dat het "
+"eindscherm wordt getoond!"
+
+#: views/grades.php:46 views/grades.php:79
+msgid "Grade Title:"
+msgstr "Titel voor het cijfer:"
+
+#: views/grades.php:47 views/grades.php:80
+msgid "Grade Description:"
+msgstr "Omschrijving voor het cijfer:"
+
+#: views/grades.php:48 views/grades.php:82
+msgid "Assign this grade when % correct answers is from"
+msgstr "Ken dit cijfer toe voor een behaald percentage tussen"
+
+#: views/grades.php:49 views/grades.php:83
+msgid "Assign this grade when  the points that user has collected are from"
+msgstr "Ken dit cijfer toe voor een behaald puntenaantal tussen"
+
+#: views/grades.php:51 views/grades.php:85
+msgid "to"
+msgstr "en"
+
+#: views/grades.php:54 views/grades.php:89
+msgid ""
+"When creating global grades for a personality quiz you don't need to set "
+"from/to points or % correct answers. Instead of this the grade is assigned "
+"to the choices your user make on questions."
+msgstr ""
+"Indien er cijfers worden geformuleerd voor een persoonlijkheidstoets dan "
+"hoeven de van/tot waarden niet te worden ingevuld. In plaats daarvan worden "
+"de cijfers toegekend aan de keuzes die gebruikers maken bij de vragen."
+
+#: views/grades.php:58 views/grades.php:93
+msgid "Upon achieving this grade assign the following certificate:"
+msgstr ""
+"Bij het behalen van dit cijfer moet het volgende certificaat worden "
+"toegekend:"
+
+#: views/grades.php:59 views/grades.php:94
+msgid "- Don't assign certificate"
+msgstr "- Ken geen certificaat toe"
+
+#: views/grades.php:65
+msgid "Add This Grade"
+msgstr "Voeg deze score toe"
+
+#: views/grades.php:73
+msgid "Edit Existing Grades"
+msgstr "Bewerk bestaande scores"
+
+#: views/grades.php:100
+msgid "Save Grade"
+msgstr "Bewaar score"
+
+#: views/grades.php:101
+msgid "Delete Grade"
+msgstr "Verwijder score"
+
+#: views/grades.php:115
+msgid "Please enter grade title"
+msgstr "Voer een titel voor de score in"
+
+#: views/grades.php:122 views/grades.php:128
+msgid "Please enter number"
+msgstr "Voer een getal in"
+
+#: views/groups.php:2
+msgid "Watu PRO User Groups"
+msgstr "Watu PRO gebruikersgroepen"
+
+#: views/groups.php:4
+msgid ""
+"User groups are optional. They help you to organize your students or users "
+"in different classes. Then if you wish you can leave some of your"
+msgstr ""
+"Gebruikersgroepen zijn optioneel. Ze helpen om studenten onder te verdelen "
+"in verschillende onderwerpen. Indien gewenst is het daarna mogelijk om "
+"bepaalde"
+
+#: views/groups.php:4
+msgid "exam categories"
+msgstr "toetsonderwerpen"
+
+#: views/groups.php:4
+msgid ""
+"accessible to only some user groups and thus diversify the exams delivered "
+"to your users."
+msgstr ""
+"alleen beschikbaar te stellen voor bepaalde gebruikersgroepen en zodoende de "
+"toetsen nauwkeurig toe te wijzen aan de gebruikers."
+
+#: views/groups.php:7
+msgid ""
+"Use the Wordpress User Roles instead of creating user groups (recommended "
+"for better integration with other plugins)."
+msgstr ""
+"Gebruik Wordpress gebruikersrollen in plaats van het creëeren van "
+"gebruikersgroepen (aanbevolen indien integratie met andere plugins van "
+"belang is)."
+
+#: views/groups.php:15
+msgid "Group name:"
+msgstr "Groepsnaam:"
+
+#: views/groups.php:16 views/groups.php:25
+msgid "Assign by default"
+msgstr "Standaard toewijzen"
+
+#: views/groups.php:17
+msgid "Add Group"
+msgstr "Groep toevoegen"
+
+#: views/groups.php:34
+msgid ""
+"If \"Assign by default\" is checked, the group will be assigned to every "
+"user who registers in your blog."
+msgstr ""
+"Indien \"Standaard toewijzen\" is aangekruist dan wordt iedere nieuwe "
+"gebruiker van dit blog automatisch in deze groep geplaatst."
+
+#: views/groups.php:44
+msgid "Please enter group name"
+msgstr "Voer een groepsnaam in"
+
+#: views/help.php:2
+msgid "Watu PRO Help"
+msgstr "Watu PRO Hulp"
+
+#: views/help.php:4
+msgid ""
+"Because most of the Watu PRO screens are self-explaining, this page is not "
+"meant to be a comprehensive user manual. Its intent is only to further "
+"clarify some of the functionality in the plugin. Also check the <a href="
+"\"http://calendarscripts.info/watupro/howto.html\" target=\"_blank\">online "
+"Help &amp; How-To page</a>"
+msgstr ""
+"Omdat de meeste pagina's van Watu PRO zelfverklarend zijn is deze pagina "
+"niet bedoeld om een volledige handleiding te vertegenwoordigen. Het is "
+"uitsluitend bedoeld om wat nadere toelichting te geven op enkele functies in "
+"de plugin. Bekijk ook de <a href=\"http://calendarscripts.info/watupro/howto."
+"html\" target=\"_blank\">online Help &amp; How-To pagina</a>."
+
+#: views/help.php:22
+msgid "Shortcodes in Watu PRO"
+msgstr "Shortcodes in Watu PRO"
+
+#: views/help.php:25
+msgid ""
+"is the shortcode to publish an exam in a post or page. Instead of X you need "
+"to use the test ID. The full dynamically generated shortcode can be copied "
+"from \"Manage exams\" page."
+msgstr ""
+"is de shortcode om een toets te publiceren in een pagina of bericht in het "
+"blog. Vervang de X door het ID van de toets. Een volledige shortcode kan "
+"worden gekopieerd op de \"Beheer toetsen\" pagina."
+
+#: views/help.php:26
+msgid ""
+"is the shortcode to display links to all published exams from a selected "
+"category. X should be replaced with category ID so please copy the dynamic "
+"code from Categoires page."
+msgstr ""
+"is de shortcode om alle links naar gepubliceerde toetsen uit een categorie "
+"weer te geven op een pagina of bericht in het blog. Vervang de X door het ID "
+"van de categorie. Een volledige shortcode kan worden gekopieerd op de "
+"\"Beheer categorieën\" pagina."
+
+#: views/help.php:27
+msgid "lists links to all published quizzes in the system."
+msgstr "genereert een lijst van alle gepubliceerde toetsen in het systeem."
+
+#: views/help.php:27
+msgid ""
+"Use [WATUPROLIST ALL title] to show them ordered by title or [WATUPROLIST "
+"ALL latest] to order them latest on top. The same format can be used in the "
+"above shortcode as well."
+msgstr ""
+"Gebruik [WATUPROLIST ALL title] om ze te sorteren op titel of [WATUPROLIST "
+"ALL latest] om de laatste bovenaan te plaatsen. Deze structuur kan ook "
+"worden gebruikt in de bovenstaande shortcodes."
+
+#: views/help.php:28
+msgid ""
+"lets you replicate the logged in user \"My Exams\" page outside of Wordpress "
+"admin area."
+msgstr ""
+"stelt je in staat de \"Mijn toetsen\" pagina ook buiten de Wordpress "
+"beheeromgeving weer te geven."
+
+#: views/help.php:28
+msgid ""
+"You can restrict this by categories as shown on the <a href=\"admin.php?"
+"page=watupro_cats\">categories page</a>."
+msgstr ""
+"Je kunt dit beperken tot bepaalde categorieën zoals te zien is op de  <a "
+"href=\"admin.php?page=watupro_cats\">categorieën pagina</a>."
+
+#: views/help.php:28
+msgid "You can define sorting - by title or latest on top like this:"
+msgstr ""
+"Je kunt de sortering - op titel of meest recent - op de volgende manier "
+"instellen:"
+
+#: views/help.php:52
+msgid "Redesigning the user pages"
+msgstr "Gebruikerspagina's herontwerpen"
+
+#: views/help.php:54
+msgid ""
+"You can safely modify the design of My Exams and My Certificates page. "
+"Simply create folder \"watupro\" in your theme folder and copy \"my_exams.php"
+"\" and \"my_certificates.php\" from \"views\" folder directly there. Then "
+"feel free to modify the code, but of course be careful not to mess with the "
+"PHP or Javascript inside."
+msgstr ""
+"Om de weergave van de pagina \"Mijn toetsen\" en \"Mijn certificaten\" aan "
+"te passen maak je een map \"watupro\" aan in de themamap. Kopieer daar de "
+"bestanden \"my_exams.php\" en \"my_certificates.php\" uit de \"views\" map "
+"naartoe. Pas in de kopieën de pagina aan, maar pas op dat de javascripts en "
+"PHP code correct blijven."
+
+#: views/modules.php:2
+msgid "Watu PRO Modules"
+msgstr "Watu PRO Modules"
+
+#: views/modules.php:5
+msgid ""
+"If you have just uploaded a module, please reactivate WatuPRO from the "
+"Wordpress plugins page."
+msgstr ""
+"Als je net een module hebt geupload, activeer WatuPRO dan opnieuw vanuit de "
+"Wordpress plugins pagina."
+
+#: views/modules.php:8
+msgid "Currently available modules"
+msgstr "Beschikbare modules"
+
+#: views/modules.php:11
+msgid "Intelligence module -"
+msgstr "Kennismodule -"
+
+#: views/modules.php:11 views/modules.php:12
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: views/modules.php:11 views/modules.php:12
+msgid "Not installed"
+msgstr "Niet geïnstalleerd"
+
+#: views/modules.php:12
+msgid "Reporting module -"
+msgstr "Rapportagemodule -"
+
+#: views/modules.php:15
+msgid "For more info about the additional modules please click here."
+msgstr "Voor meer informatie over de extra modules klik je hier."
+
+#: views/modules.php:18
+msgid "Upload new module"
+msgstr "Module uploaden"
+
+#: views/modules.php:20
+msgid "Please upload only module files purchased from the"
+msgstr "Alleen modules uploaden die zijn gekocht op de"
+
+#: views/modules.php:20
+msgid "official WatuPRO site."
+msgstr "officiële WatuPRO site."
+
+#: views/modules.php:29
+msgid "Uploading modules is disabled on this blog for security reasons"
+msgstr ""
+"Modules uploaden is op dit blog niet mogelijk uit veiligheidsoverwegingen."
+
+#: views/modules.php:32
+msgid ""
+"If you wish to disable the module upload feature for security reasons, "
+"please manually enter 'watupro_sandbox_mode' in your wp_options table. "
+"Although in general you shouldn't give your administrator's login details to "
+"any person you don't trust."
+msgstr ""
+"Als je het uploaden van modules wilt uitschakelen in verband met "
+"beveiligingsvereisten, voer dan handmatig 'watupro_sandbox_mode' in, in de "
+"wp_options tabel. Desondanks is het niet verstandig om administrator rechten "
+"toe te kennen aan eenieder die niet kan worden vertrouwd."
+
+#: views/my_certificates.php:5
+msgid "Showing certificates of "
+msgstr "Certificaten van"
+
+#: views/my_certificates.php:11
+msgid "Exam title"
+msgstr "Toetstitel"
+
+#: views/my_certificates.php:11
+msgid "Completed on"
+msgstr "Ingezonden op"
+
+#: views/my_certificates.php:11 views/users-earned-certificate.html.php:14
+msgid "With result"
+msgstr "Resultaat"
+
+#: views/my_certificates.php:12
+msgid "View/Print"
+msgstr "Bekijk/Druk af"
+
+#: views/my_certificates.php:22
+msgid "There are no accessible certificates at the moment."
+msgstr "Er zijn momenteel geen certificaten beschikbaar."
+
+#: views/my_exams.php:4
+msgid "Showing %s of "
+msgstr "%s van"
+
+#: views/my_exams.php:7
+msgid "%s to complete"
+msgstr "%s nog af te leggen"
+
+#: views/my_exams.php:10
+msgid "%s title"
+msgstr "%s titel"
+
+#: views/my_exams.php:10 views/my_exams.php:31
+msgid "In post/page"
+msgstr "In bericht/pagina"
+
+#: views/my_exams.php:19
+msgid "Locked"
+msgstr "Geblokkeerd"
+
+#: views/my_exams.php:25
+msgid "There are no open quizzes to complete at this time."
+msgstr "Er zijn geen toetsen toegankelijk op dit moment."
+
+#: views/my_exams.php:28
+msgid "Completed quizzes"
+msgstr "Voltooide toetsen"
+
+#: views/my_exams.php:31
+msgid "Quiz title"
+msgstr "Toetstitel"
+
+#: views/my_exams.php:32
+msgid "Result/Grade"
+msgstr "Resultaat/Cijfer"
+
+#: views/my_exams.php:32 views/takings.php:89
+msgid "Details"
+msgstr "Details"
+
+#: views/my_exams.php:43
+msgid "There are no completed quizzes yet."
+msgstr "Er zijn geen toetsen afgerond op dit moment."
+
+#: views/options.php:4
+msgid "Manage Your %s"
+msgstr "Beheer je %s"
+
+#: views/options.php:12
+msgid ""
+"Enable debug mode to see SQL errors. (Useful in case you have any problems)"
+msgstr ""
+"Schakel de debug mode in om SQL fouten weer te geven. (Nuttig indien er "
+"problemen zijn)"
+
+#: views/options.php:15
+msgid ""
+"Delete Watu PRO data when uninstalling the plugin. This will not delete "
+"anything if you only deactivate the plugin."
+msgstr ""
+"Verwijder de Watu PRO gegevens indien de plugin wordt verwijderd. Er zal "
+"niets worden verwijderd indien de plugin alleen wordt gedeactiveerd."
+
+#: views/options.php:16
+msgid "Are you sure? Type \"yes\" to confirm."
+msgstr "Weet je het zeker? Type \"ja\" om te bevestigen."
+
+#: views/options.php:19
+msgid "Send the automated emails from this address:"
+msgstr "Verstuur de automatische mails vanuit deze afzender:"
+
+#: views/options.php:20
+msgid ""
+"This defaults to your main admin email. However to set a friendlier sender "
+"name you can overwrite it here by entering your name in format: <b>Your Name "
+"&lt;email@domain.com&gt;</b>"
+msgstr ""
+"Hier wordt standaard het emailadres van de eerste beheerder gebruikt. Voor "
+"een meer gebruikersvriendelijke afzenden is het mogelijk om het hier te "
+"overschrijven door het volgende format te gebruiken: <b>Jouw naam &lt;"
+"email@domain.com&gt;</b>"
+
+#: views/options.php:24
+msgid "Default Answer Type"
+msgstr "Standaardantwoordtype"
+
+#: views/options.php:32 views/question_form.php:105
+msgid "Single Answer"
+msgstr "Enkelvoudig antwoord"
+
+#: views/options.php:34 views/question_form.php:108
+msgid "Multiple Answers"
+msgstr "Meerdere antwoorden"
+
+#: views/options.php:36 views/question_form.php:111
+msgid "Open End"
+msgstr "Open vraag"
+
+#: views/options.php:41
+msgid "Roles"
+msgstr "Rollen"
+
+#: views/options.php:43
+msgid "Roles that can manage exams"
+msgstr "Rollen die toetsen mogen beheren"
+
+#: views/options.php:45
+msgid ""
+"By default only Administrator and Super admin can manage Watu PRO exams. You "
+"can enable other roles here."
+msgstr ""
+"Standaard kunnen alleen beheerders en super admins toetsen in Watu PRO "
+"beheren. Andere rollen kunnen hier rechten worden toegekend."
+
+#: views/options.php:52
+msgid "Fine-tune these settings."
+msgstr "Verfijn deze instellingen."
+
+#: views/options.php:54
+msgid "Only administrator or superadmin can change this!"
+msgstr "Uitsluitend beheerders of super admins kunnen dit wijzigen!"
+
+#: views/options.php:59
+msgid "ReCaptcha Settings"
+msgstr "ReCaptcha Instellingen"
+
+#: views/options.php:61
+msgid "ReCaptcha Public Key:"
+msgstr "ReCaptcha Public Key:"
+
+#: views/options.php:62
+msgid "ReCaptcha Private Key:"
+msgstr "ReCaptcha Private Key:"
+
+#: views/options.php:63
+msgid ""
+"Setting up <a href=\"http://www.google.com/recaptcha/whyrecaptcha\" target="
+"\"_blank\">ReCaptcha</a> is optional. If you choose to do so you will be "
+"able to require image validation on chosen exams to avoid spam box "
+"submissions."
+msgstr ""
+"Het instellen van <a href=\"http://www.google.com/recaptcha/whyrecaptcha\" "
+"target=\"_blank\">ReCaptcha</a> is optioneel. Indien je het instelt wordt "
+"het mogelijk om spambots te weren van het indienen van resultaten doordat "
+"gebruikers tekst uit een afbeelding moeten overnemen."
+
+#: views/options.php:68
+msgid "User Pages"
+msgstr "Gebruikerspagina's"
+
+#: views/options.php:70
+msgid "Do not display \"My %s\" page in user dashboard."
+msgstr "Geef \"Mijn %s\" niet weer in het gebruikersdashboard."
+
+#: views/options.php:71
+msgid "Do not display \"My certificates\" page in user dashboard."
+msgstr "Geef \"Mijn certificaten\" niet weer in het gebruikersdashboard."
+
+#: views/options.php:73
+msgid "Reporting module tabs:"
+msgstr "Rapportagemoduletabs:"
+
+#: views/options.php:74
+msgid "In the \"Quiz Reports\" page do not display these tabs:"
+msgstr ""
+"In het \"Toetsrapportenoverzicht\" moeten deze tabs niet worden weergegeven:"
+
+#: views/options.php:75
+msgid "Skills"
+msgstr "Vaardigheden"
+
+#: views/options.php:86
+msgid "Save Options"
+msgstr "Bewaar opties"
+
+#: views/options.php:98
+msgid "Exams From Watu Basic"
+msgstr "Toetsen uit Watu Basic"
+
+#: views/options.php:104
+msgid ""
+"You have %d %s created in the basic free Watu plugin. Do you want to copy "
+"these exams in Watu PRO? You can do this any time, and multiple times."
+msgstr ""
+"Je hebt %d %s gemaakt in de gratis Watu basic plugin. Wil je deze kopiëren "
+"naar Watu PRO? Dit kan op ieder moment en zo vaak als je wilt."
+
+#: views/options.php:106
+msgid ""
+"Automatically replace all Watu shortcodes embedded in posts so they will be "
+"managed by WatuPRO"
+msgstr ""
+"Herzie automatisch alle Watu shortcodes in posts zodat ze worden beheerd met "
+"Watu PRO."
+
+#: views/options.php:108
+msgid "Copy also the results of users who submitted"
+msgstr "Kopieer ook de resultaten die gebruikers al hebben ingediend."
+
+#: views/options.php:110
+msgid "Copy These %s to WatuPRO"
+msgstr "Kopieer deze %s naar WatuPRO"
+
+#: views/options.php:112
+msgid ""
+"Note: Watu should not be activated along with Watu PRO. Please deactivate "
+"the basic plugin if you have not already done this."
+msgstr ""
+"Noot: Watu mag niet gelijktijdig met WatuPRO geactiveerd zijn. Deactiveer de "
+"basic Watu plugin als dat nog niet is gebeurd."
+
+#: views/question_cats.php:2
+msgid "Manage Question Categories"
+msgstr "Beheer vraagcategorieën"
+
+#: views/question_cats.php:8
+msgid ""
+"Question categories are optional. You can use them to organize large tests, "
+"to group and paginate the questions by category etc. They can also be added "
+"on the fly at the time of adding or editing a question."
+msgstr ""
+"Vraagcategorieën zijn optioneel. Ze kunnen worden gebruikt om grote toetsen "
+"te ordenen, om vragen te groeperen en paginering per categorie mogelijk te "
+"maken. Je kunt categorieën ook toevoegen terwijl je werkt aan het toevoegen "
+"of wijzigen van een vraag."
+
+#: views/question_cats.php:10
+msgid "Category description is optional and supports HTML."
+msgstr ""
+"De omschrijving van een categorie is optioneel en mag HTML code bevatten."
+
+#: views/question_cats.php:10
+msgid ""
+"If provided it will be shown when the questions in the test are "
+"<strong>grouped and paginated</strong> by category"
+msgstr ""
+"Indien het wordt opgegeven zal dit worden getoond indien een toets wordt "
+"<strong>gegroepeerd en gepagineerd</strong>per categorie."
+
+#: views/question_cats.php:14 views/question_cats.php:32
+msgid "Category name:"
+msgstr "Naam van de categorie:"
+
+#: views/question_cats.php:18 views/question_cats.php:36
+msgid "Category description:"
+msgstr "Omschrijving van de categorie:"
+
+#: views/question_cats.php:22
+msgid "Add category"
+msgstr "Categorie toevoegen"
+
+#: views/question_cats.php:52
+msgid ""
+"Are you sure? All questions that use the category will be now uncategorized."
+msgstr ""
+"Weet je het zeker? Alle vragen die in deze categorie vallen zullen nu niet-"
+"gecategoriseerd worden."
+
+#: views/question_form.php:19
+msgid "Correct Answer "
+msgstr "Dit is het juiste antwoord"
+
+#: views/question_form.php:21
+msgid "Points: "
+msgstr "Punten:"
+
+#: views/question_form.php:43
+msgid "Please enter the question"
+msgstr "Voer de vraag in"
+
+#: views/question_form.php:61 views/question_form.php:219
+msgid "Go to Questions Page"
+msgstr "Ga naar de vraagpagina"
+
+#: views/question_form.php:62 views/takings.php:10
+msgid "Edit this quiz"
+msgstr "Wijzig deze toets"
+
+#: views/question_form.php:67
+msgid "Question Contents and Settings"
+msgstr "Vraaginhoud en instellingen"
+
+#: views/question_form.php:69
+msgid ""
+"Deactivate this question. This will exclude it from showing on the exam, "
+"counting it, including it in reports etc."
+msgstr ""
+"Deze vraag deactiveren. Hierdoor wordt de vraag uitgesloten van weergave in "
+"toetsen, tellen, rapportages etc."
+
+#: views/question_form.php:70
+msgid ""
+"This is imporant question. (This means it should be included with priority "
+"if the quiz is pulling only a subset of all the questions.)"
+msgstr ""
+"Deze vraag is belangrijk. (Deze vraag krijgt prioriteit indien de toets een "
+"willekeurige set vragen selecteert uit de beschikbare vragen)"
+
+#: views/question_form.php:72
+msgid ""
+"Add this question in the beginning (Useful only if you do not randomize "
+"questions. By default new questions are added at the end.)"
+msgstr ""
+"Voeg deze vraag toe aan het begin (alleen nuttig indien de vragen niet in "
+"willekeurige volgorde worden getoond. Standaard worden vragen aan het einde "
+"ingevoegd.)"
+
+#: views/question_form.php:74
+msgid "Display code:"
+msgstr "Weergavecode:"
+
+#: views/question_form.php:74
+msgid ""
+"(You can use this in the final screen or certificate contents to display the "
+"user answer on this question.)"
+msgstr ""
+"(Je kunt dit gebruiken in het eindscherm of in certificaten om de inhoud van "
+"het antwoord op deze vraag te tonen)"
+
+#: views/question_form.php:79
+msgid "Tags:"
+msgstr "Tags:"
+
+#: views/question_form.php:79
+msgid "(Optional, for management purposes. Separate tags by commas.)"
+msgstr "(Optioneel, voor beheersdoeleinden. Tags scheiden door komma's.)"
+
+#: views/question_form.php:83
+msgid "Question Category"
+msgstr "Vraagcategorie"
+
+#: views/question_form.php:86
+msgid "- Uncategorized  "
+msgstr "- Niet-gecategoriseerd"
+
+#: views/question_form.php:87
+msgid "- Add new category -"
+msgstr "- Voeg categorie toe -"
+
+#: views/question_form.php:93
+msgid "Enter category"
+msgstr "Vul categorie in"
+
+#: views/question_form.php:97
+msgid "Answer Type and Settings"
+msgstr "Antwoordtype en instellingen"
+
+#: views/question_form.php:117
+msgid ""
+"In open-end questions you can also add any number of answers but none of "
+"them will be shown to the end user. Instead of that if the answer they typed "
+"matches any of your answers the matching points will be assigned."
+msgstr ""
+"Bij het invoeren van open vragen kun je ook een willekeurig aantal "
+"antwoorden invoeren, maar geen van de antwoorden zal worden getoond aan de "
+"gebruiker. In plaats daarvan zal het antwoord van de gebruiker worden "
+"vergeleken met de ingevoerde antwoorden, indien er een overeenkomst is zal "
+"het aantal punten worden toegekend dat is ingesteld."
+
+#: views/question_form.php:119
+msgid "Matching mode:"
+msgstr "Vergelijkingsmethodiek:"
+
+#: views/question_form.php:120
+msgid "Loose"
+msgstr "Ontspannen"
+
+#: views/question_form.php:121
+msgid "User answer text contains your answer"
+msgstr "Het antwoord van de gebruiker bevat jouw antwoord"
+
+#: views/question_form.php:122
+msgid "Your answer text contains the whole user answer"
+msgstr "Jouw antwoord bevat het volledige antwoord van de gebruiker"
+
+#: views/question_form.php:123
+msgid "Exact match (case-insensitive)"
+msgstr "Exacte overeenkomst (niet-hoofdlettergevoelig)"
+
+#: views/question_form.php:124
+msgid "Learn more"
+msgstr "Lees meer"
+
+#: views/question_form.php:126
+msgid "Display mode:"
+msgstr "Weergave:"
+
+#: views/question_form.php:127
+msgid "Medium box (\"textarea\")"
+msgstr "Gemiddeld invoerveld (\"textarea\")"
+
+#: views/question_form.php:128
+msgid "Large box (\"textarea\")"
+msgstr "Groot invoerveld (\"textarea\")"
+
+#: views/question_form.php:129
+msgid "Text input field (single-line)"
+msgstr "Invoerveld (1 regel)"
+
+#: views/question_form.php:134
+msgid ""
+"This is a survey question (will not be counted in results or marked as "
+"correct/incorrect)."
+msgstr ""
+"Dit is een onderzoeksvraag (de vraag telt niet me bij resultaten en wordt "
+"ook niet beoordeel als goed/fout)."
+
+#: views/question_form.php:135
+msgid ""
+"Exclude from showing in the final screen (when %%ANSWERS%% variable is used)."
+msgstr ""
+"Uitsluiten op het eindscherm (indien de %%ANSWERS%% variabele wordt "
+"gebruikt)."
+
+#: views/question_form.php:137
+msgid ""
+"Display in compact format (answers will be aligned horizontally next to the "
+"question)"
+msgstr ""
+"Compact weergeven (antwoorden wordt horizontaal naast de vraag getoond)"
+
+#: views/question_form.php:139
+msgid ""
+"Round the points collected from this question to the closest decimal. "
+"(Example: 0.98 points will be rounded to 1 point. But 0.9 points will remain "
+"0.9 points.)"
+msgstr ""
+"Rond het aantal punten op deze vraag af naar het dichtstbijzijnde decimaal "
+"(Bijvoorbeeld: 0,98 wordt afgerond naar 1 punt, maar 0,9 punten blijft 0,9 "
+"punten)."
+
+#: views/question_form.php:140
+msgid "Penalize not-answering this question with"
+msgstr "Bestraf het niet-beantwoorden van deze vraag met"
+
+#: views/question_form.php:140
+msgid "<b>negative</b> points (type positive number)."
+msgstr "<b>negatieve</b> punten (type het positieve getal)."
+
+#: views/question_form.php:143
+msgid "Maximum selections allowed:"
+msgstr "Maximum aantal selecties dat is toegestaan:"
+
+#: views/question_form.php:143
+msgid "(Leave as 0 for unlimited)"
+msgstr "(Laat 0 staan om geen beperking in te stellen)"
+
+#: views/question_form.php:147
+msgid "Answering this question will be considered CORRECT when:"
+msgstr "Het antwoord op deze vraag wordt als juist geïnterpreteerd indien:"
+
+#: views/question_form.php:149
+msgid ""
+"Positive number of points is achieved (so at least one correct answer is "
+"given)"
+msgstr ""
+"Een positief aantal punten is behaald (tenminste één juist antwoord is "
+"aangegeven)"
+
+#: views/question_form.php:150
+msgid ""
+"The maximum number of points is achieved (so all correct answers are given "
+"and none is incorrect.)"
+msgstr ""
+"Het maximum aantal punten is behaald (alle juiste antwoorden zijn aangegeven "
+"en niet één onjuist antwoord)"
+
+#: views/question_form.php:163
+msgid "Rich text editor"
+msgstr "Editor met opmaak"
+
+#: views/question_form.php:165
+msgid "Correct Answer"
+msgstr "Dit is het juiste antwoord"
+
+#: views/question_form.php:167
+msgid "Points:"
+msgstr "Punten:"
+
+#: views/question_form.php:174
+msgid "Add New Answer"
+msgstr "Voeg antwoord toe"
+
+#: views/question_form.php:179
+msgid "Optional Answer Explanation / Feedback"
+msgstr "Optionele toelichting/terugkoppeling bij dit antwoord"
+
+#: views/question_form.php:183
+msgid ""
+"You can use this field to explain the correct answer. This will be shown "
+"only at the end of the %s if you have choosen to display correct answers. "
+"Use the tag %s if you want to show how many points the user has earned on "
+"this question."
+msgstr ""
+"Dit veld kan worden gebruikt om het juiste antwoord toe te lichten. Dit "
+"wordt alleen weergegeven aan het eind van de %s indien het tonen van "
+"correcte antwoorden is ingeschakeld. Gebruik de tag %s om aan te geven "
+"hoeveel punten zijn behaald met deze vraag."
+
+#: views/question_form.php:184
+msgid "Elaborate answer feedback"
+msgstr "Uitvoerige terugkoppeling op deze vraag inschakelen"
+
+#: views/question_form.php:186
+msgid ""
+"I want to have different answer feedback for correctly and incorrectly "
+"answered question."
+msgstr ""
+"Ik wil afzonderlijke feedback invoeren voor correct en incorrect beantwoorde "
+"vragen."
+
+#: views/question_form.php:187
+msgid ""
+"I want to have different answer feedback depending on every specific user "
+"selection."
+msgstr ""
+"Ik wil afzonderlijke feedback geven voor iedere selectie die de gebruiker "
+"kan maken."
+
+#: views/question_form.php:189
+msgid ""
+"In this case please use the tag {{{split}}} to split the two contents. The "
+"content that should be shown if the question is answered correctly goes "
+"before the {{{split}}} tag, and the incorrect goes after it. For more info "
+"visit <a href=\"%s\" target=\"_blank\">this link</a>."
+msgstr ""
+"In dit geval plaats je de {{{split}}} tag op de scheiding tussen de feedback "
+"bij een goed antwoord en de feedback voor een foutief antwoord. De tekst die "
+"voor de {{{split}}} tag staat wordt gebruikt bij een correcte beantwoording; "
+"de tekst na de tag voor een foutief antwoord. Voor meer informatie bezoek je "
+"deze <a href=\"%s\" target=\"_blank\">link (Engels)</a>."
+
+#: views/question_form.php:190
+msgid ""
+"In this case please use the tag {{{split}}} to split between all the "
+"feedbacks. They should be ordered in the same way you have ordered the user "
+"choices. For more info visit <a href=\"%s\" target=\"_blank\">this link</a>."
+msgstr ""
+"In dit geval gebruik je de {{{split}}} tussen de feedback voor ieder "
+"mogelijk antwoord. De volgorde van de feedback moet gelijk zijn aan de "
+"volgorde waarin de antwoorden zijn ingevoerd. Tussen elke feedback staat een "
+"eigen tag. Als de antwoorden in willekeurige volgorde worden getoond, zal de "
+"juiste feedback toch worden weergegeven. Voor meer informatie bezoek je "
+"deze<a href=\"%s\" target=\"_blank\">link (Engels)</a>."
+
+#: views/question_form.php:197
+msgid "Question Hints"
+msgstr "Hints voor de vragen"
+
+#: views/question_form.php:201
+msgid ""
+"Question hints support rich text formatting. You can enter multiple hints "
+"for this question splitting them with the tag %s."
+msgstr ""
+"De hints ondersteunen opmaak. Meerdere hints kunnen worden ingevoerd door ze "
+"te splitsen met de %s tag."
+
+#: views/question_form.php:217
+msgid "Save Question"
+msgstr "Bewaar vraag"
+
+#: views/questions.php:2
+msgid "Manage Questions in "
+msgstr "Beheer vragen in"
+
+#: views/questions.php:4
+msgid "Back to %s"
+msgstr "Terug naar %s"
+
+#: views/questions.php:6
+msgid "Edit this %s"
+msgstr "Wijzig deze %s"
+
+#: views/questions.php:10
+msgid "Export Questions"
+msgstr "Exporteer vragen"
+
+#: views/questions.php:12
+msgid "Import questions"
+msgstr "Importeer vragen"
+
+#: views/questions.php:14
+msgid "Legacy import/export"
+msgstr "Legacy import/export"
+
+#: views/questions.php:18
+msgid "Note: Questions can be exported in a TAB delimited CSV file"
+msgstr ""
+"Noot: Vragen kunnen worden geëxporteerd in een TAB gescheiden CSV bestand"
+
+#: views/questions.php:21
+msgid "Legacy exports:"
+msgstr "Legacy exports:"
+
+#: views/questions.php:22
+msgid "Export To Copy"
+msgstr "Exporteer voor kopie"
+
+#: views/questions.php:24
+msgid "Export To Edit"
+msgstr "Exporteer voor bewerken"
+
+#: views/questions.php:28
+msgid "What file are you importing?"
+msgstr "Wat voor bestand wordt geïmporteerd?"
+
+#: views/questions.php:30
+msgid ""
+"I'm importing new questions. (This is a file exported by clicking on 'Export "
+"to copy' or a file that you created yourself.)"
+msgstr ""
+"Ik importeer nieuwe vragen (Dit bestand is gemaakt door te klikken op "
+"'Exporteer voor kopie' of een bestand dat je zelf hebt gemaakt)."
+
+#: views/questions.php:31
+msgid ""
+"In this case all questions and answers will be added as new. The format of "
+"the CSV file should be: <strong>Question; Answer Type: \"radio\", \"checkbox"
+"\", or \"textarea\", Order (leave \"0\" to auto-order the questions); "
+"Category (optional); Explanation/Feedback (optional); Required: \"0\" for "
+"not required, \"1\" for required question; Correct answer condition (any or "
+"all); Fill the gaps or sorting points (correct/incorrect); Sortable question "
+"values; Max selections allowed; Is inactive (0 or 1); Is survey (0 or 1); "
+"Elaborate asnwer feedback (\"exact\" or \"boolean\"). After that answers "
+"start like this: answer; points; answer; points;"
+msgstr ""
+"In dit geval worden alle vragen als nieuwe vragen toegevoegd. De indeling "
+"van het CSV bestand moet als volgt zijn: <strong>Question; Answer Type: "
+"\"radio\", \"checkbox\", or \"textarea\", Order (leave \"0\" to auto-order "
+"the questions); Category (optional); Explanation/Feedback (optional); "
+"Required: \"0\" for not required, \"1\" for required question; Correct "
+"answer condition (any or all); Fill the gaps or sorting points (correct/"
+"incorrect); Sortable question values; Max selections allowed; Is inactive (0 "
+"or 1); Is survey (0 or 1); Elaborate answer feedback (\"exact\" or \"boolean"
+"\"). Daarna beginnen antwoorden als volgt: antwoord; punten; antwoord; "
+"punten;"
+
+#: views/questions.php:32
+msgid "Optional columns should still be present but their values can be empty."
+msgstr "Optionele kolommen moeten wel bestaan, maar mogen leeg zijn"
+
+#: views/questions.php:33
+msgid ""
+"For a working example just click on \"Export to copy\" link on this page. Of "
+"course you must have created at least one question in the quiz."
+msgstr ""
+"Voor een voorbeeldbestand klik je op \"Exporteer voor kopie\" op deze "
+"pagina. Dit werkt alleen als er tenminste 1 vraag in de toets bestaat."
+
+#: views/questions.php:36
+msgid ""
+"I'm importing a file with edited questions. (This file was created by "
+"clicking 'Export to edit' link)"
+msgstr ""
+"Ik importeer een bestand met aangepaste vragen (Dit bestand is aangemaakt "
+"met de 'Exporteer voor bewerken' link)."
+
+#: views/questions.php:37
+msgid ""
+"In this case we will assume you are keeping the same format that was "
+"exported. If you have added new questions or answers please make sure their "
+"ID columns contain \"0\". Questions or answers with unrecognized IDs will be "
+"ignored."
+msgstr ""
+"In deze situatie wordt er vanuit gegaan dat het bestand dezelfde indeling "
+"heeft behouden als toen het werd geëxporteerd. Als er nieuwe vragen of "
+"antwoorden zijn toegevoegd, zorg er dan voor dat hun ID kolommen \"0\" "
+"bevatten. Vragen of antwoorden die ID's hebben die niet kunnen worden "
+"herkend worden overgeslagen."
+
+#: views/questions.php:40
+msgid "CSV File:"
+msgstr "CSV Bestand:"
+
+#: views/questions.php:58
+msgid "To add this exam to your blog, insert the code "
+msgstr "Om deze toets toe te voegen in je blog voeg je de volgende code"
+
+#: views/questions.php:58
+msgid "into any post or page."
+msgstr "toe aan een Bericht of Pagina."
+
+#: views/questions.php:69
+msgid "Show questions from category:"
+msgstr "Toon vragen uit de categorie:"
+
+#: views/questions.php:70
+msgid "- All categories -"
+msgstr "- Alle categorieën -"
+
+#: views/questions.php:77
+msgid "and tagged as:"
+msgstr "die de volgende tags hebben:"
+
+#: views/questions.php:77
+msgid "Filter questions"
+msgstr "Filter vragen"
+
+#: views/questions.php:81 views/questions.php:160
+msgid "Create New Question"
+msgstr "Maak nieuwe vraag"
+
+#: views/questions.php:90
+msgid "Type"
+msgstr "Type"
+
+#: views/questions.php:92
+msgid "Number Of Answers"
+msgstr "Aantal antwoorden"
+
+#: views/questions.php:93
+msgid "Action"
+msgstr "Actie"
+
+#: views/questions.php:110
+msgid "Move Up"
+msgstr "Verplaats naar boven"
+
+#: views/questions.php:113
+msgid "Move Down"
+msgstr "Verplaats naar beneden"
+
+#: views/questions.php:119
+msgid "Sorting"
+msgstr "Sortering"
+
+#: views/questions.php:120
+msgid "Fill the gaps"
+msgstr "Vul de gaten in"
+
+#: views/questions.php:121
+msgid "Open-end (essay)"
+msgstr "Open vraag (essay)"
+
+#: views/questions.php:122
+msgid "Multiple choices"
+msgstr "Meerkeuzevraag"
+
+#: views/questions.php:126
+msgid "Single choice"
+msgstr "Enkelvoudig antwoord"
+
+#: views/questions.php:129
+msgid "(Inactive)"
+msgstr "(Inactief)"
+
+#: views/questions.php:130
+msgid "(Important!)"
+msgstr "(Belangrijk!)"
+
+#: views/questions.php:134
+msgid ""
+"You are about to delete this question. This will delete the answers to this "
+"question. Press 'OK' to delete and 'Cancel' to stop."
+msgstr ""
+"Je staat op het punt deze vraag te verwijderen. Hiermee worden ook de "
+"antwoorden op de vraag verwijderd. Druk op 'OK' om door te gaan of op "
+"'Cancel' om te stoppen."
+
+#: views/questions.php:139
+msgid "No questions found."
+msgstr "Geen vragen gevonden"
+
+#: views/questions.php:147
+msgid "Change category of selected questions to:"
+msgstr "Wijzig de categorie van de geselecteerde vragen in:"
+
+#: views/questions.php:152
+msgid "Assign selected category"
+msgstr "Ken geselecteerde categorie toe"
+
+#: views/questions.php:154
+msgid "Delete Selected Questions"
+msgstr "Verwijder geselecteerde vragen"
+
+#: views/questions.php:162
+msgid ""
+"Note: you can use the up/down arrows to reorder questions. This will take "
+"effect for exams whose questions are <b>not randomized</b>."
+msgstr ""
+"Noot: je kunt de pijltjes naar boven/beneden gebruiken om de volgorde van de "
+"vragen te wijzigen. Dit heeft effect op toetsen waarin de vragen niet in "
+"willekeurige volgorde worden gesteld."
+
+#: views/questions.php:164
+msgid "Question Hints Settings:"
+msgstr "Hint instellingen voor deze vraag:"
+
+#: views/questions.php:166
+msgid "Enable question hints in this quiz."
+msgstr "Schakel hints voor deze toets in."
+
+#: views/questions.php:168
+msgid ""
+"Question hints are optionally displayed to the quiz taker upon request. It "
+"is usually a good idea to limit the number of hints the user can see so they "
+"have some incentive to try taking the quiz without using all the hints."
+msgstr ""
+"Hints worden op verzoek getoond aan de gebruiker. Het is aan te bevelen het "
+"aantal beschikbare hints te beperken om de gebruiker aanleiding te geven de "
+"toets te volbrengen zonder alle hints te gebruiken."
+
+#: views/questions.php:169 views/questions.php:170
+msgid "Allow the user to view up to"
+msgstr "Geef de gebruiker beschikking over"
+
+#: views/questions.php:169
+msgid "total hints for the whole quiz (leave 0 for unlimited hints)."
+msgstr "hints voor de toets (voer 0 in om geen beperking in te stellen)."
+
+#: views/questions.php:170
+msgid ""
+"hints per question - for questions that have more than one hint available "
+"(leave 0 for unlimited hints)."
+msgstr ""
+"hints per vraag - voor vragen met meer dan één hint (voer 0 in om geen "
+"beperking in te stellen)."
+
+#: views/questions.php:178
+msgid "Please select CSV file."
+msgstr "Selecteer een CSV bestand."
+
+#: views/show_exam.php:7
+msgid "This exam must be completed in %d minutes."
+msgstr "Deze toets moet zijn afgerond in %d minuten."
+
+#: views/show_exam.php:8
+msgid "Click here to start the exam"
+msgstr "Klik hier om de toets te starten."
+
+#: views/show_exam.php:36
+msgid "Question %d of %d"
+msgstr "Vraag %d van %d"
+
+#: views/show_exam.php:41 views/show_exam.php:60
+msgid "Loading..."
+msgstr "Laden..."
+
+#: views/show_exam.php:69
+msgid "Previous"
+msgstr "Vorige"
+
+#: views/show_exam.php:71
+msgid "Next"
+msgstr "Volgende"
+
+#: views/show_exam.php:72
+msgid "See Answer"
+msgstr "Bekijk antwoord"
+
+#: views/show_exam.php:79
+msgid "Submit"
+msgstr "Insturen"
+
+#: views/student_form.php:8
+msgid "Date registered"
+msgstr "Registratiedatum"
+
+#: views/student_form.php:13
+msgid "Student name"
+msgstr "Naam cursist"
+
+#: views/student_form.php:19
+msgid "Student email"
+msgstr "Emailadres cursist"
+
+#: views/student_form.php:33
+msgid "Optional Notes"
+msgstr "Optionele notities"
+
+#: views/student_form.php:41
+msgid "Save Student"
+msgstr "Bewaar cursist"
+
+#: views/student_form.php:42
+msgid "Back To Students"
+msgstr "Terug naar cursisten"
+
+#: views/taking_details.php:3
+msgid "Details for taken %s "
+msgstr "Details over %s"
+
+#: views/taking_details.php:5
+msgid "User:"
+msgstr "Gebruiker:"
+
+#: views/taking_details.php:7
+msgid "Date:"
+msgstr "Datum:"
+
+#: views/taking_details.php:8
+msgid "Total points collected:"
+msgstr "Totaal aantal punten behaald:"
+
+#: views/taking_details.php:9
+msgid "Achieved grade:"
+msgstr "Behaald cijfer:"
+
+#: views/taking_details.php:12
+msgid ""
+"The textual details below show exact snapshot of the questions in the way "
+"that student have seen them when taking the %s. If you have added, edited or "
+"deleted questions since then you will not see these changes here."
+msgstr ""
+"De tekstuele weergave hieronder geeft weer hoe de vragen er precies uitzagen "
+"toen de cursist de toets %s aan het maken was. Indien vragen zijn "
+"toegevoegd, gewijzigd of verwijderd na het afleggen van de toets, dan zijn "
+"die wijzigingen hier niet zichtbaar."
+
+#: views/taking_details.php:14
+msgid "Snapshot"
+msgstr "Snapshot"
+
+#: views/taking_details.php:14
+msgid "Table format"
+msgstr "Tabelformaat"
+
+#: views/taking_details.php:15
+msgid "Download"
+msgstr "Downloaden"
+
+#: views/taking_details.php:28 views/takings.php:50
+msgid "Points received"
+msgstr "Punten behaald"
+
+#: views/takings.php:2
+msgid "Users who took quiz"
+msgstr "Gebruikers die de toets hebben gemaakt"
+
+#: views/takings.php:8
+msgid "Back to quizzes list"
+msgstr "Terug naar het toetsenoverzicht"
+
+#: views/takings.php:12
+msgid "Filter/search these records"
+msgstr "Filter/zoeken in deze records"
+
+#: views/takings.php:12
+msgid "Export this page"
+msgstr "Exporteer deze pagina"
+
+#: views/takings.php:12 views/takings.php:13
+msgid "(Filters apply)"
+msgstr "(Filters actief)"
+
+#: views/takings.php:13
+msgid "Export with details"
+msgstr "Exporteren met details"
+
+#: views/takings.php:13
+msgid "Stats per question"
+msgstr "Statistieken per vraag"
+
+#: views/takings.php:14
+msgid "Chart by grade"
+msgstr "Grafiek gebaseerd op cijfers"
+
+#: views/takings.php:16
+msgid "View Payments"
+msgstr "Bekijk betalingen"
+
+#: views/takings.php:18
+msgid "Note that the export files are <b>semicolon delimited</b>."
+msgstr "Noot: geëxporteerde bestanden zijn gescheiden met <b>puntkomma's</b>."
+
+#: views/takings.php:20
+msgid "Back to completed results"
+msgstr "Terug naar afgeronde resultaten"
+
+#: views/takings.php:21
+msgid "There are %d unfinished attempt(s)."
+msgstr "Er is (zijn) %d niet-afgeronde poging(en)."
+
+#: views/takings.php:28 views/takings.php:34 views/takings.php:40
+#: views/takings.php:46
+msgid "Equals"
+msgstr "Is gelijk aan"
+
+#: views/takings.php:29 views/takings.php:35 views/takings.php:41
+msgid "Starts with"
+msgstr "Begint met"
+
+#: views/takings.php:30 views/takings.php:36 views/takings.php:42
+msgid "Ends with"
+msgstr "Eindigt op"
+
+#: views/takings.php:31 views/takings.php:37 views/takings.php:43
+msgid "Contains"
+msgstr "Bevat"
+
+#: views/takings.php:39
+msgid "IP Address"
+msgstr "IP Adres"
+
+#: views/takings.php:45
+msgid "Date Taken"
+msgstr "Datum afname"
+
+#: views/takings.php:47
+msgid "Is before"
+msgstr "Is eerder dan"
+
+#: views/takings.php:48
+msgid "Is after"
+msgstr "Is later dan"
+
+#: views/takings.php:51
+msgid "Equal"
+msgstr "Gelijk"
+
+#: views/takings.php:52
+msgid "Are less than"
+msgstr "Zijn kleiner dan"
+
+#: views/takings.php:53
+msgid "Are more than"
+msgstr "Zijn groter dan"
+
+#: views/takings.php:55
+msgid "Grade equals"
+msgstr "Cijfer is gelijk aan"
+
+#: views/takings.php:62
+msgid "User role is"
+msgstr "Rol van de gebruiker is"
+
+#: views/takings.php:63
+msgid "Any role"
+msgstr "Iedere rol"
+
+#: views/takings.php:70
+msgid "User is in group"
+msgstr "Gebruiker is lid van group"
+
+#: views/takings.php:71
+msgid "Any group"
+msgstr "Alle groepen"
+
+#: views/takings.php:78
+msgid "Search/Filter"
+msgstr "Zoek/Filter"
+
+#: views/takings.php:79
+msgid "Clear Filters"
+msgstr "Verwijder filters"
+
+#: views/takings.php:84
+msgid "There are no records that match your search criteria"
+msgstr "Er zijn geen records gevonden die aan je criteria voldoen."
+
+#: views/takings.php:88
+msgid "Grade"
+msgstr "Cijfer"
+
+#: views/takings.php:103
+msgid "edit"
+msgstr "bewerk"
+
+#: views/takings.php:107
+msgid "delete"
+msgstr "verwijder"
+
+#: views/takings.php:111
+msgid "Showing"
+msgstr "Toont"
+
+#: views/takings.php:111
+msgid "from"
+msgstr "van"
+
+#: views/takings.php:111
+msgid "records"
+msgstr "records"
+
+#: views/takings.php:124
+msgid "Show me a button to cleanup all submitted data on this quiz."
+msgstr "Toon een knop om alle ingevoerde data in deze toets op te ruimen."
+
+#: views/takings.php:124
+msgid "Cleanup all data"
+msgstr "Ruim alle data op"
+
+#: views/takings.php:149
+msgid "Are you sure? This operation cannot be undone!"
+msgstr "Weet je het zeker? Dit kan niet ongedaan worden gemaakt!"
+
+#: views/usable-variables.php:1
+msgid "Usable Variables:"
+msgstr "Beschikbare variabelen:"
+
+#: views/usable-variables.php:1
+msgid "show/hide"
+msgstr "toon/verberg"
+
+#: views/usable-variables.php:1
+msgid "(All the variables can be used in grade descriptions as well.)"
+msgstr ""
+"(Alle variabelen kunnen ook worden gebruik in de beschrijving van de scores.)"
+
+#: views/usable-variables.php:3
+msgid "Explanation"
+msgstr "Toelichting"
+
+#: views/usable-variables.php:4
+msgid "The number of correct answers (the old %%SCORE%% also works)"
+msgstr "Het aantal juiste antwoorden (the old %%SCORE%% werkt ook)"
+
+#: views/usable-variables.php:5
+msgid "Total number of questions"
+msgstr "Totaal aantal vragen"
+
+#: views/usable-variables.php:7
+msgid "Maximum number of points that user could collect."
+msgstr "Het maximum haalbare aantal punten dat kon worden behaald."
+
+#: views/usable-variables.php:8
+msgid "Correct answer percentage"
+msgstr "Percentage juiste antwoorden"
+
+#: views/usable-variables.php:9
+msgid "The assigned grade after taking the %s - title and description together"
+msgstr ""
+"Het cijfer dat is toegekend na het afleggen van %s - titel en omschrijving "
+"ineen."
+
+#: views/usable-variables.php:10
+msgid "The assigned grade - title only"
+msgstr "Het toegekende cijfer - alleen de titel"
+
+#: views/usable-variables.php:11
+msgid "The assigned grade - description only"
+msgstr "Het toegekende cijfer - alleen de beschrijving"
+
+#: views/usable-variables.php:13
+msgid ""
+"A generic rating of your performance - it could be 'Failed'(0-39%), 'Just "
+"Passed'(40%-50%), 'Satisfactory', 'Competent', 'Good', 'Excellent' and "
+"'Unbeatable'(100%)"
+msgstr ""
+"Een algemene beoordeling van je prestaties - dit kan zijn 'Failed'(0-39%), "
+"'Just Passed'(40%-50%), 'Satisfactory', 'Competent', 'Good', 'Excellent' and "
+"'Unbeatable'(100%)"
+
+#: views/usable-variables.php:15
+msgid "The name of the %s"
+msgstr "De naam van de %s"
+
+#: views/usable-variables.php:16
+msgid ""
+"Outputs a link to printable certificate. Will be displayed only if "
+"certificate is assigned to the achieved grade and the user is logged in."
+msgstr ""
+"Geeft een link naar een certificaat dat kan worden afgedrukt. Wordt alleen "
+"weergegeven als een certificaat is toegewezen aan het behaalde cijfer en de "
+"gebruiker is ingelogd."
+
+#: views/usable-variables.php:18
+msgid ""
+"Shows unresolved questions without showing which is the correct answer. "
+"Useful if you want to point user attention where they need to work more "
+"without exposing the correct results. Questions that are considered "
+"unresolved are unanswered ones or the questions where points collected are "
+"less or equal to 0."
+msgstr ""
+"Toont alle niet-opgeloste vragen zonder het juiste antwoord weer te geven. "
+"Dit is handig als je de cursist wilt laten zien welke onderwerpen nog nadere "
+"bestudering behoeven, zonder de antwoorden te verklappen. Onder 'niet-"
+"opgeloste vragen' worden alle vragen verstaan die niet zijn beantwoord of "
+"waar het behaalde puntenaantal kleiner of gelijk aan 0 is."
+
+#: views/usable-variables.php:20
+msgid ""
+"Displays the user answers along with correct/incorrect mark. Shows the same "
+"as the setting under \"Correct answer display\" but without any predefined "
+"text before it."
+msgstr ""
+"Toont de antwoorden van de gebruiker tezamen met een juist/onjuist kenmerk. "
+"Het resultaat is gelijk aan de instelling bij \"Correct answer display\", "
+"maar dan zonder een voorafgaande tekst."
+
+#: views/usable-variables.php:21
+msgid "Displays table with user answers, points, and teacher comments"
+msgstr ""
+"Toont een tabel met de antwoorden van de gebruiker, de behaalde punten en "
+"opmerkingen van de docent."
+
+#: views/usable-variables.php:22
+msgid "Grades and stats per category in case you have defined such grades."
+msgstr "Scores en statistieken per categorie, mits deze zijn gedefinieerd."
+
+#: views/usable-variables.php:23
+msgid "User email address."
+msgstr "Gebruikers' emailadres."
+
+#: views/usable-variables.php:24
+msgid ""
+"The date when the %s is completed (Date format comes from your Wordpress "
+"Settings page)."
+msgstr ""
+"De datum waar de %s is voltooid (de datumindeling wordt gebaseerd op de "
+"instellingen in de Wordpress instellingen)."
+
+#: views/usable-variables.php:25
+msgid "The time spent to take the %s."
+msgstr "De tijd die is besteed aan %s."
+
+#: views/users-earned-certificate.html.php:2
+msgid "Users Who Earned Certificate %s"
+msgstr "Gebruikers die het %s certificaat hebben behaald."
+
+#: views/users-earned-certificate.html.php:4
+msgid "Back to all certificates"
+msgstr "Terug naar alle certificaten"
+
+#: views/users-earned-certificate.html.php:7
+msgid "No user has earned this certificate yet."
+msgstr "Nog geen enkele gebruiker heeft dit certificaat behaald."
+
+#: views/users-earned-certificate.html.php:13
+msgid "User name and email"
+msgstr "Gebruikers' naam en email"
+
+#: views/users-earned-certificate.html.php:13
+msgid "Date earned"
+msgstr "Datum behaald"
+
+#: views/users-earned-certificate.html.php:14
+msgid "Quiz taken"
+msgstr "Gemaakte toets"
+
+#: views/users-earned-certificate.html.php:14
+msgid "View details"
+msgstr "Bekijk details"
+
+#: views/users-earned-certificate.html.php:18
+msgid "View Certificate"
+msgstr "Bekijk certificaat"
+
+#: views/users-earned-certificate.html.php:19
+#: views/users-earned-certificate.html.php:32
+msgid "Remove"
+msgstr "Verwijder"
+
+#: views/users-earned-certificate.html.php:28
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: views/users-earned-certificate.html.php:29
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+#: views/users-earned-certificate.html.php:31
+msgid "View / print"
+msgstr "Bekijk / Druk af"
+
+#: views/users-earned-certificate.html.php:45
+msgid "Are you sure? The user will not be able to print this certificate."
+msgstr "Weet je het zeker? De gebruiker kan dit certificaat niet printen."
